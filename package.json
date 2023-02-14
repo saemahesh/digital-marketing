@@ -9,6 +9,9 @@
     "export": "next export",
     "postbuild": "next-sitemap"
   },
+  "engines": {
+  "node": "16.x"
+},
   "dependencies": {
     "dotenv": "^8.2.0",
     "framer-motion": "^2.7.5",
