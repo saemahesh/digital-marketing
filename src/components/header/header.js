@@ -33,7 +33,7 @@ export default function Header({ className }) {
           </Flex>
 
           <Button
-            className="donate__btn"
+            className="donate__btn donate__btn1"
             variant="secondary"
             aria-label="Get Started"
           >
