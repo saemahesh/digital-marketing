@@ -69,3 +69,12 @@ footer .header-info-box .header-info-icon {
 footer .header-info-icon {
     color: deeppink
 }
+footer .who-are-we {
+    width: 500px;
+}
+
+@media only screen and (max-width: 600px) {
+    footer .who-are-we {
+        width: 100%
+    }
+}

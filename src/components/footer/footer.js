@@ -25,9 +25,9 @@ export default function Footer() {
           ))}
           <div>
             <h5 sx={styles.footer.heading}>Who are we?</h5>
-            <p style={{ 'width': '500px' }}>
+            <div className='who-are-we'>
               Robomate is one of the pioneers in Marketing automation and Website Designer Company in India. We Lead international customers. We believe that every business, irrespective of its size small, medium or big looks for a way to communicate with its targeted audience.
-            </p>
+            </div>
           </div>
           <div style={{display:'grid'}}>
             <div className="header-info-box">
