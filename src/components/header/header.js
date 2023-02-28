@@ -3,8 +3,8 @@ import { jsx, Container, Flex, Button } from 'theme-ui';
 import { keyframes } from '@emotion/core';
 import { Link } from 'react-scroll';
 import Logo from 'components/logo';
-import LogoDark from 'assets/logo-dark.svg';
-import LogoWhite from 'assets/logo.svg';
+import LogoDark from 'assets/images/logo/logo.png'
+import LogoWhite from 'assets/images/logo/logo.png';
 import { DrawerProvider } from '../../contexts/drawer/drawer.provider';
 import MobileDrawer from './mobile-drawer';
 import menuItems from './header.data';
@@ -14,7 +14,7 @@ export default function Header({ className }) {
     <DrawerProvider>
       <header sx={styles.header} className={className} id="header">
         <Container sx={styles.container}>
-          <Logo src={className === 'sticky' ? LogoDark : LogoWhite} />
+          <Logo style={{width:'200px'}} src={className === 'sticky' ? LogoDark : LogoWhite} />
 
           <Flex as="nav" sx={styles.nav}>
             {menuItems.map(({ path, label }, i) => (
@@ -37,7 +37,10 @@ export default function Header({ className }) {
             variant="secondary"
             aria-label="Get Started"
           >
-            Get Started
+             <a class="whatsapp" style={{color:'deeppink', textDecoration:'none'}} 
+            href="https://api.whatsapp.com/send?phone=919398305627&text=Hi Robomate👋" target="blank">
+            <i class="bi bi-whatsapp"></i>  Whatsapp us: +919398305627
+            </a>
           </Button>
 
           <MobileDrawer />

@@ -6,7 +6,7 @@ import ModalVideo from 'react-modal-video';
 import { Link } from 'components/link';
 import { FaPlayCircle } from 'react-icons/fa';
 import BannerBG from 'assets/bannerBg.png';
-import BannerThumb from 'assets/banner-thumb.png';
+import BannerThumb from 'assets/banner-thumb-2.png';
 
 import client1 from 'assets/sponsor/paypal.svg';
 import client2 from 'assets/sponsor/google.svg';
@@ -44,34 +44,28 @@ export default function Banner() {
       <Container sx={styles.banner.container}>
         <Box sx={styles.banner.contentBox}>
           <Heading as="h1" variant="heroPrimary">
-            Experience your ultimate mobile application
+          An <span>Automation</span> bot that can automate your business
           </Heading>
           <Text as="p" variant="heroSecondary">
-            Get your blood tests delivered at let home collect sample from the
-            victory of the managements that supplies best design system
-            guidelines ever.
+            You just need to concentrate on running your business. 
+            Robomate will help you increase sales in a smarter way 
+            and takes care of bringing customers to your doors.
           </Text>
-          <Flex>
-            <Button variant="whiteButton" aria-label="Get Started">
-              Get Started
-            </Button>
-            <>
-              <ModalVideo
-                channel="youtube"
-                isOpen={videoOpen}
-                videoId="ZNA9rmDsYVE"
-                onClose={() => setVideoOpen(false)}
-              />
-              <Button
-                variant="textButton"
-                aria-label="Watch Video"
-                onClick={handleClick}
-              >
-                <FaPlayCircle /> Watch Video
-              </Button>
-            </>
-          </Flex>
-          <Flex sx={styles.sponsorBox}>
+          <button className='btn btn-warning donate__btn css-d7q6ja' style={{backgroundColor:'deeppink'}}>
+            <a class="whatsapp" style={{color:'white', textDecoration:'none'}} href="tel:+919398305627" target="blank">
+            <i class="bi bi-telephone-fill"></i> Contact us: +919398305627
+            </a>
+          </button>
+          <br/>
+          <button className='btn btn-warning donate__btn css-d7q6ja' style={{backgroundColor:'green'}}>
+            <a class="whatsapp" style={{color:'white', textDecoration:'none'}} 
+            href="https://api.whatsapp.com/send?phone=919398305627&text=Hi Robomate👋" target="blank">
+             <i class="bi bi-whatsapp"></i> Whatsapp us: +919398305627
+            </a>
+          </button>
+
+
+          {/* <Flex sx={styles.sponsorBox}>
             <Text sx={styles.sponsorTitle}>Sponsored by:</Text>
             <Box sx={styles.sponsorBox.sponsor}>
               {data.map((item, index) => (
@@ -80,7 +74,7 @@ export default function Banner() {
                 </Link>
               ))}
             </Box>
-          </Flex>
+          </Flex> */}
         </Box>
 
         <Box sx={styles.banner.imageBox}>

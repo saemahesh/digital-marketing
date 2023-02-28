@@ -5,50 +5,42 @@ import Rating from 'components/rating';
 import ButtonGroup from 'components/button-group';
 import Carousel from 'react-multi-carousel';
 
-import Avatar1 from 'assets/testimonial/avatar1.png';
-import Avatar2 from 'assets/testimonial/avatar2.png';
-import Avatar3 from 'assets/testimonial/avatar3.png';
-import Avatar4 from 'assets/testimonial/avatar4.png';
-
 const data = [
   {
     id: 1,
-    title: 'Modern look & trending design',
-    description:
-      'Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.',
-    avatar: Avatar1,
-    name: 'Denny Hilguston',
-    designation: '@denny.hil',
+    title: 'Reliable Services',
+    description: 'Very good and reliable website development company and will recommend to all for best website service and digital marketing services.',
+    avatar: 'https://www.truelinesolution.com/public/Asset/assets/img/testimonal/Pankaj_Savaliya.png',
+    name: 'Saahil Multani',
+    designation: '@Saahil',
     review: 4,
   },
   {
     id: 2,
-    title: 'Design Quality & performance',
-    description:
-      'Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.',
-    avatar: Avatar2,
-    name: 'Denny Hilguston',
-    designation: '@denny.hil',
+    title: 'Quality Products',
+    description:  `We are working together since last couple of years. Robomate provides quality services and also always happy to support any time if I need`,
+    avatar: 'https://www.truelinesolution.com/public/Asset/assets/img/testimonal/K_D_Patel___R_Group.png',
+    name: 'Mehul Vekariya',
+    designation: '@Mehul',
     review: 5,
   },
   {
     id: 3,
-    title: 'Layout and organized layers',
+    title: 'Awesome Chatbot',
     description:
-      'Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.',
-    avatar: Avatar3,
-    name: 'Denny Hilguston',
-    designation: '@denny.hil',
+      'Get working experience to work with this amazing team & they built chatbot for my business with AI',
+    avatar: 'https://www.truelinesolution.com/public/Asset/assets/img/testimonal/pooja_arora.png',
+    name: 'Pooja arora',
+    designation: '@Pooja',
     review: 5,
   },
   {
     id: 4,
-    title: 'Modern look & trending design',
-    description:
-      'Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.',
-    avatar: Avatar4,
-    name: 'Denny Hilguston',
-    designation: '@denny.hil',
+    title: 'Result Oriented',
+    description:`I got a software made from them... awesome services. And they are readily available to sort any problem anytime..although it's been so long they completed my work.`,
+    avatar: 'https://www.truelinesolution.com/public/Asset/assets/img/testimonal/Saahil_Multani___Paramount_Looms.png',
+    name: 'Gaurav jogi',
+    designation: '@Gaurav',
     review: 4,
   },
 ];

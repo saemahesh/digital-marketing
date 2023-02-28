@@ -39,8 +39,7 @@ export default function KeyFeature() {
     <section sx={{ variant: 'section.keyFeature' }} id="feature">
       <Container>
         <SectionHeader
-          slogan="Quality features"
-          title="Meet exciting feature of app"
+          title="Explore Our Products"
         />
 
         <Grid sx={styles.grid}>

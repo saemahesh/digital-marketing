@@ -20,17 +20,13 @@ export default function IndexPage() {
     <ThemeProvider theme={theme}>
       <StickyProvider>
         <Layout>
-          <SEO title="Robomate | Automate your systems" />
+          <SEO title="Robomate | Automate your business" />
           <Banner />
-          <KeyFeature />
-          <CoreFeature />
           <Feature />
-          <PartnerSection />
-          <WorkFlow />
+          {/* <WorkFlow /> */}
           <TestimonialCard />
-          <SecurePayment />
-          <Package />
-          <Faq />
+          {/* <Package /> */}
+          {/* <Faq /> */}
         </Layout>
       </StickyProvider>
     </ThemeProvider>
