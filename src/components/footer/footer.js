@@ -1,6 +1,7 @@
 /** @jsx jsx */
 import { jsx, Heading, Box, Container, Text } from 'theme-ui';
 import { Link } from 'components/link';
+import Satisfaction from 'assets/images/satisfaction.png'
 import menuItems from './footer.data';
 export default function Footer() {
   return (
@@ -22,14 +23,51 @@ export default function Footer() {
               </nav>
             </Box>
           ))}
+          <div>
+            <h5 sx={styles.footer.heading}>Who are we?</h5>
+            <p style={{ 'width': '500px' }}>
+              Robomate is one of the pioneers in Marketing automation and Website Designer Company in India. We Lead international customers. We believe that every business, irrespective of its size small, medium or big looks for a way to communicate with its targeted audience.
+            </p>
+          </div>
+          <div style={{display:'grid'}}>
+            <div className="header-info-box">
+              <div className="header-info-icon">
+              <i class="bi bi-envelope-open-fill"></i>
+              </div>
+              <p>Email Us</p>
+              <a href="mailto:support@robomate.in?subject=We Need help Robomate"><h6>support@robomate.in</h6></a>
+            </div>
+            <div className="header-info-box">
+            <p>Call Us</p>
+              <a href="tel:+919398305627"> <div className="header-info-icon">
+              <i class="bi bi-telephone-fill"></i>
+              </div>
+                
+                <h6>+919398305627</h6></a>
+            </div>
+            <div className="header-info-box">
+              <img src={Satisfaction} width="150px" alt="Robomate - Best IT Service Provider" />
+            </div>
+          </div>
+
         </Box>
+
       </Container>
       <Text sx={styles.footer.copyright}>
-        All right reserved - Design & Developed by
-        <Link path="https://redq.io/" target="_blank">
-          RedQ, Inc
-        </Link>
+        All right reserved - © Robomate
       </Text>
+      <div>
+        <div style={{ position: 'fixed', right: '5px', bottom: '130px', zIndex: 999999 }}>
+          <a href="https://api.whatsapp.com/send?phone=919398305627&text=Hi Robomate👋" title="Whatspp Now For Inquiry" target="_blank">
+            <img src="https://www.truelinesolution.com/public/Asset/img/whatspp-now-for-free-quotation.gif" alt="Whatspp Now For Inquiry" title="Whatspp Now For Inquiry" width="60px;" />
+          </a>
+        </div>
+        <div style={{ position: 'fixed', right: '8px', bottom: '200px', zIndex: 999999 }} title="Call Now For Inquiry">
+          <a href="tel:+919398305627">
+            <img src="https://www.truelinesolution.com/public/Asset/img/call-now-for-free-quotation.gif" alt="Call Now For Inquiry" title="Call Now For Inquiry" width="55px;" />
+          </a>
+        </div>
+      </div>
     </footer>
   );
 }
@@ -58,8 +96,8 @@ const styles = {
 
     heading: {
       fontSize: [3, null, null, 4],
-      color: 'text_secondary',
-      fontWeight: '500',
+      color: 'deeppink',
+      fontWeight: 'bold',
       mb: [3, 4, 5, null, 6],
       lineHeight: '1.35',
     },

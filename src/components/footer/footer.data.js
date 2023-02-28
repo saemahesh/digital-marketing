@@ -1,98 +1,44 @@
 export default [
-  {
-    header: 'About Us',
-    items: [
-      {
-        path: '/',
-        label: 'Support Center',
-      },
-      {
-        path: '/',
-        label: 'Customer Support',
-      },
-      {
-        path: '/',
-        label: 'About Us',
-      },
-      {
-        path: '/',
-        label: 'Copyright',
-      },
-      {
-        path: '/',
-        label: 'Popular Campaign',
-      },
-    ],
-  },
+  // {
+  //   header: 'About Us',
+  //   items: [
+  //     {
+  //       path: '/',
+  //       label: 'Support Center',
+  //     },
+  //     {
+  //       path: '/',
+  //       label: 'Customer Support',
+  //     },
+  //     {
+  //       path: '/',
+  //       label: 'About Us',
+  //     },
+  //     {
+  //       path: '/',
+  //       label: 'Copyright',
+  //     }
+  //   ],
+  // },
   {
     header: 'Our Information',
     items: [
       {
-        path: '/',
-        label: 'Return Policy ',
+        path: '/refund-policy',
+        label: 'Refund Policy ',
       },
       {
-        path: '/',
+        path: '/refund-policy',
         label: 'Privacy Policy',
       },
       {
-        path: '/',
+        path: '/refund-policy',
         label: 'Terms & Conditions',
       },
       {
-        path: '/',
+        path: '/sitemap',
         label: 'Site Map',
-      },
-      {
-        path: '/',
-        label: 'Store Hours',
-      },
+      }
     ],
-  },
-  {
-    header: 'My Account',
-    items: [
-      {
-        path: '/',
-        label: 'Press inquiries',
-      },
-      {
-        path: '/',
-        label: 'Social media ',
-      },
-      {
-        path: '/',
-        label: 'directories',
-      },
-      {
-        path: '/',
-        label: 'Images & B-roll',
-      },
-      {
-        path: '/',
-        label: 'Permissions',
-      },
-    ],
-  },
-  {
-    header: 'Policy',
-    items: [
-      {
-        path: '/',
-        label: 'Application security',
-      },
-      {
-        path: '/',
-        label: 'Software principles',
-      },
-      {
-        path: '/',
-        label: 'Unwanted software policy',
-      },
-      {
-        path: '/',
-        label: 'Responsible supply chain',
-      },
-    ],
-  },
+  }
 ];
