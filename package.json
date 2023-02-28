@@ -9,9 +9,13 @@
     "export": "next export",
     "postbuild": "next-sitemap"
   },
+   "engines": {
+  "node": "16.x"
+},
   "dependencies": {
     "dotenv": "^8.2.0",
     "framer-motion": "^2.7.5",
+    "@next/env": "^12.0.7",
     "globby": "^11.0.0",
     "isomorphic-unfetch": "^3.0.0",
     "next": "9.5.3",
