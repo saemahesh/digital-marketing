@@ -25,9 +25,21 @@ export default function Feature() {
           ))}
         </Grid> */}
       </Container>
-      <div className="container" id='products'>
+      <div className="container" id='products'  style={{ display: 'none' }}>
         <div className="row row-cols-1 row-cols-md-4 g-4">
-         
+          <div className="col">
+            <div className="card">
+              <img src="https://www.truelinesolution.com/public/Asset/assets/img/page/Bulk_Whatsapp_Marketing_Software_Logo1.png" className="card-img-top" alt="Hollywood Sign on The Hill" />
+              <div className="card-body">
+                <h5 className="card-title">Bulk WhatsApp Sender</h5>
+                <h6 className="card-price">Offer Price Rs.799</h6>
+                {/* <p className="card-text">
+                  This is a longer card with supporting text below as a natural lead-in to
+                  additional content. This content is a little bit longer.
+                </p> */}
+              </div>
+            </div>
+          </div>
           <div className="col">
             <div className="card">
               <img src="https://static.wixstatic.com/media/5f1e4f_eb05fd848fe54e2faaf15069429bbfa9~mv2.png/v1/fit/w_500,h_500,q_90/file.png" className="card-img-top" alt="Palm Springs Road" />
