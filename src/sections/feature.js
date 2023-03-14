@@ -9,9 +9,7 @@ export default function Feature() {
   return (
     <section sx={{ variant: 'section.feature' }}>
       <Container>
-        <SectionHeader
-          title="Explore Our Products"
-        />
+       
 
         {/* <Grid sx={styles.grid}>
           {data.map((item) => (
