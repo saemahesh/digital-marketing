@@ -9,7 +9,9 @@ export default function Feature() {
   return (
     <section sx={{ variant: 'section.feature' }}>
       <Container>
-       
+        <SectionHeader
+          title="Explore Our Products"
+        />
 
         {/* <Grid sx={styles.grid}>
           {data.map((item) => (
@@ -23,7 +25,7 @@ export default function Feature() {
           ))}
         </Grid> */}
       </Container>
-      <div className="container" id='products'  style={{ display: 'none' }}>
+      <div className="container" id='products'>
         <div className="row row-cols-1 row-cols-md-4 g-4">
           <div className="col">
             <div className="card">
