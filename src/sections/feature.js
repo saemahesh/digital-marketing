@@ -4,7 +4,6 @@ import { Container, Grid } from 'theme-ui';
 import SectionHeader from 'components/section-header';
 import Chatbot from 'assets/images/chatbot.png'
 
-
 export default function Feature() {
   return (
     <section sx={{ variant: 'section.feature' }}>
