@@ -92,7 +92,7 @@ export default function Feature() {
                       <img src="https://cdn-icons-png.flaticon.com/512/1233/1233540.png?w=740&t=st=1677310412~exp=1677311012~hmac=2a3088e49536e8a36edb247ecea48dff312a4e7286ec86cf21c64ee43636fbba" padding-bottom="10px" alt="Bulk SMS" />
                     </div>
                     <div className="column right">
-                      <p> <font size={6} face="Times New Roman, Times, serif" color="#ff8106" style={{ textShadow: '1px 1px #000' }}><a href="bulk-sms.php">Bulk SMS</a></font></p>
+                      <p> <font size={6} face="Times New Roman, Times, serif" color="#ff8106" style={{ textShadow: '1px 1px #000' }}><a href="#">Bulk SMS</a></font></p>
                       <p style={{ textAlign: 'left' }}><font size={4} face="Times New Roman, Times, serif">
                         ✓ Transactional SMS
                         <br /> ✓ Promotional SMS
@@ -117,7 +117,7 @@ export default function Feature() {
                       <img src="https://cdn-icons-png.flaticon.com/512/999/999039.png?w=740&t=st=1677311058~exp=1677311658~hmac=9830c3f7cd13ef448e32dbcb68206e5b928bb03d45ba0e638af020251b85da0e" padding-bottom="10px" alt="website" />
                     </div>
                     <div className="column right">
-                      <p> <font size={6} face="Times New Roman, Times, serif"><a href="web-design.php" style={{ color: '#27c471' }}>Web Designing</a></font></p>
+                      <p> <font size={6} face="Times New Roman, Times, serif"><a href="#" style={{ color: '#27c471' }}>Web Designing</a></font></p>
                       <p style={{ textAlign: 'left' }}><font size={4} face="Times New Roman, Times, serif">
                         ✓ Statics Website
                         <br /> ✓ Dynamic Website
@@ -142,7 +142,7 @@ export default function Feature() {
                       <img src="https://cdn-icons-png.flaticon.com/512/1162/1162162.png?w=740&t=st=1677311138~exp=1677311738~hmac=d35589065bf475f523a3930620ead31a2d41cb85cbf06d107bfb2eb58db09f79" padding-bottom="10px" alt="Portal Development" />
                     </div>
                     <div className="column right">
-                      <p> <font size={6} face="Times New Roman, Times, serif"><a href="web-portal.php" style={{ color: '#27a9e1' }}>Portal Design</a></font></p>
+                      <p> <font size={6} face="Times New Roman, Times, serif"><a href="#" style={{ color: '#27a9e1' }}>Portal Design</a></font></p>
                       <p style={{ textAlign: 'left' }}><font size={4} face="Times New Roman, Times, serif">
                         ✓ Any Web Portal
                         <br /> ✓ Matrimonial Portal
@@ -192,7 +192,7 @@ export default function Feature() {
                       <img src="https://cdn-icons-png.flaticon.com/512/1208/1208203.png?w=740&t=st=1677311260~exp=1677311860~hmac=7ee959067b655d707113f010764f435a4b874331d54138f6fc046e306da4a519" padding-bottom="10px" alt="Online Software" />
                     </div>
                     <div className="column right">
-                      <p> <font size={6} face="Times New Roman, Times, serif"><a href="school-erp.php" style={{ color: '#f20076' }}>Online ERP</a></font></p>
+                      <p> <font size={6} face="Times New Roman, Times, serif"><a href="#" style={{ color: '#f20076' }}>Online ERP</a></font></p>
                       <p style={{ textAlign: 'left' }}><font size={4} face="Times New Roman, Times, serif">
                         ✓ School Management ERP
                         <br /> ✓ Online Exam/Test Series
@@ -217,7 +217,7 @@ export default function Feature() {
                       <img src="https://cdn-icons-png.flaticon.com/512/1238/1238451.png?w=740&t=st=1677311347~exp=1677311947~hmac=1708d1546cf3c5880a379f0ab09222895ecd4b8c7805f416d3a7064edb9a57fe" padding-bottom="10px" alt="Socail Management" />
                     </div>
                     <div className="column right">
-                      <p> <font size={6} face="Times New Roman, Times, serif" color="#ff7400" style={{ textShadow: '1px 1px #000' }}><a href="seo-smo.php">SEO / SMO</a></font></p>
+                      <p> <font size={6} face="Times New Roman, Times, serif" color="#ff7400" style={{ textShadow: '1px 1px #000' }}><a href="#">SEO / SMO</a></font></p>
                       <p style={{ textAlign: 'left' }}><font size={4} face="Times New Roman, Times, serif">
                         ✓ Search Engine Opt.
                         <br /> ✓ Social Media Opt.
