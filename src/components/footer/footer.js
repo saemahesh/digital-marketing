@@ -1,9 +1,24 @@
 /** @jsx jsx */
 import { jsx, Heading, Box, Container, Text } from 'theme-ui';
+import TawkTo from 'tawkto-react'
 import { Link } from 'components/link';
+import { useEffect } from 'react';
+
 import Satisfaction from 'assets/images/satisfaction.png'
 import menuItems from './footer.data';
 export default function Footer() {
+
+  useEffect(() => {
+    
+    var tawk = new TawkTo('641da8a94247f20fefe7c546', '1gs9tllup')
+
+    tawk.onStatusChange((status) => 
+    {
+        // console.log(status)
+    })
+
+}, [])
+
   return (
     <footer sx={styles.footer}>
       <Container sx={styles.footer.container}>
@@ -67,6 +82,8 @@ export default function Footer() {
             <img src="https://www.truelinesolution.com/public/Asset/img/call-now-for-free-quotation.gif" alt="Call Now For Inquiry" title="Call Now For Inquiry" width="55px;" />
           </a>
         </div>
+
+        
       </div>
     </footer>
   );
