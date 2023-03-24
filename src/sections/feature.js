@@ -4,6 +4,11 @@ import { Container, Grid } from 'theme-ui';
 import SectionHeader from 'components/section-header';
 import Chatbot from 'assets/images/chatbot.png'
 
+import GoAds from 'assets/images/services/go-ad.png'
+import InstaAd from 'assets/images/services/insta-ads.jpg'
+import YoutubeAd from 'assets/images/services/youtube-ads.png'
+import FacebookAd from 'assets/images/services/fb-ads.png'
+
 export default function Feature() {
   return (
     <section sx={{ variant: 'section.feature' }}>
@@ -31,7 +36,7 @@ export default function Feature() {
               <img src="https://www.truelinesolution.com/public/Asset/assets/img/page/Bulk_Whatsapp_Marketing_Software_Logo1.png" className="card-img-top" alt="Hollywood Sign on The Hill" />
               <div className="card-body">
                 <h5 className="card-title">Bulk WhatsApp Sender</h5>
-                <h6 className="card-price">Offer Price Rs.799</h6>
+                <h6 className="card-price">Offer Price Rs.799 per Year</h6>
                 {/* <p className="card-text">
                   This is a longer card with supporting text below as a natural lead-in to
                   additional content. This content is a little bit longer.
@@ -44,7 +49,7 @@ export default function Feature() {
               <img src="https://static.wixstatic.com/media/5f1e4f_eb05fd848fe54e2faaf15069429bbfa9~mv2.png/v1/fit/w_500,h_500,q_90/file.png" className="card-img-top" alt="Palm Springs Road" />
               <div className="card-body">
               <h5 className="card-title">Just Dail Extractor</h5>
-                <h6 className="card-price">Offer Price Rs.799</h6>
+                <h6 className="card-price">Offer Price Rs.799 per Year</h6>
                 {/* <p className="card-text">
                   This is a longer card with supporting text below as a natural lead-in to
                   additional content. This content is a little bit longer.
@@ -57,7 +62,7 @@ export default function Feature() {
               <img src="https://productimages.withfloats.com/serviceimages/tile/60bd23e97d1520bb48c5cfeebde2c0670d9516a475df6882bb1b1f04" className="card-img-top" alt="Los Angeles Skyscrapers" />
               <div className="card-body">
               <h5 className="card-title">Google Map Extractor</h5>
-                <h6 className="card-price">Offer Price Rs.799</h6>
+                <h6 className="card-price">Offer Price Rs.799 per Year</h6>
                 {/* <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p> */}
               </div>
             </div>
@@ -67,7 +72,7 @@ export default function Feature() {
               <img src={Chatbot} className="card-img-top" alt="Skyscrapers" />
               <div className="card-body">
               <h5 className="card-title">Best AI Chatbot</h5>
-                <h6 className="card-price">Starts from Price Rs.999</h6>
+                <h6 className="card-price">Starts from Price Rs.999 per Year</h6>
                 {/* <p className="card-text">
                   This is a longer card with supporting text below as a natural lead-in to
                   additional content. This content is a little bit longer.
@@ -75,6 +80,60 @@ export default function Feature() {
               </div>
             </div>
           </div>
+
+          <div className="col">
+            <div className="card">
+              <img src={GoAds} className="card-img-top" alt="Hollywood Sign on The Hill" />
+              <div className="card-body">
+                <h5 className="card-title">Google Ads</h5>
+                {/* <p className="card-text">
+                  This is a longer card with supporting text below as a natural lead-in to
+                  additional content. This content is a little bit longer.
+                </p> */}
+              </div>
+            </div>
+          </div>
+
+          <div className="col">
+            <div className="card">
+              <img src={YoutubeAd} 
+              className="card-img-top" alt="Hollywood Sign on The Hill" />
+              <div className="card-body">
+                <h5 className="card-title">Youtube Ads</h5>
+                {/* <p className="card-text">
+                  This is a longer card with supporting text below as a natural lead-in to
+                  additional content. This content is a little bit longer.
+                </p> */}
+              </div>
+            </div>
+          </div>
+
+          <div className="col">
+            <div className="card">
+              <img src={FacebookAd} className="card-img-top" alt="Hollywood Sign on The Hill" />
+              <div className="card-body">
+                <h5 className="card-title">Facebook Ads</h5>
+                {/* <p className="card-text">
+                  This is a longer card with supporting text below as a natural lead-in to
+                  additional content. This content is a little bit longer.
+                </p> */}
+              </div>
+            </div>
+          </div>
+
+          <div className="col">
+            <div className="card">
+              <img src={InstaAd} className="card-img-top" alt="Hollywood Sign on The Hill" />
+              <div className="card-body">
+                <h5 className="card-title">Instagram Ads</h5>
+                {/* <p className="card-text">
+                  This is a longer card with supporting text below as a natural lead-in to
+                  additional content. This content is a little bit longer.
+                </p> */}
+              </div>
+            </div>
+          </div>
+
         </div>
 
       </div>
@@ -149,7 +208,6 @@ export default function Feature() {
                         <br /> ✓ E-Commerce Portal
                         <br /> ✓ Classifieds Portal
                         <br /> ✓ Real Estate Portal
-                        <br /> ✓ Job Provider Portal
                         <br /> ✓ CRM/CMS Portal
                       </font></p>
                     </div>
@@ -196,7 +254,6 @@ export default function Feature() {
                       <p style={{ textAlign: 'left' }}><font size={4} face="Times New Roman, Times, serif">
                         ✓ School Management ERP
                         <br /> ✓ Online Exam/Test Series
-                        <br /> ✓ MLM Commission Soft.
                         <br /> ✓ Hospital Management
                         <br /> ✓ Bill or Invoice Software
                         <br /> ✓ GST or Accounting Soft.
@@ -221,11 +278,9 @@ export default function Feature() {
                       <p style={{ textAlign: 'left' }}><font size={4} face="Times New Roman, Times, serif">
                         ✓ Search Engine Opt.
                         <br /> ✓ Social Media Opt.
-                        <br /> ✓ Web Link Shearing
                         <br /> ✓ Facebook Page Mgmt.
                         <br /> ✓ Google Search &amp; Map
                         <br /> ✓ Keyword &amp; Ad-Sense
-                        <br /> ✓ Live Chat Support
                       </font></p>
                     </div>
                   </div>
