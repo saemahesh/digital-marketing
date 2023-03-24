@@ -10,9 +10,19 @@ import MobileDrawer from './mobile-drawer';
 import menuItems from './header.data';
 
 export default function Header({ className }) {
+
   return (
     <DrawerProvider>
       <header sx={styles.header} className={className} id="header">
+      <script dangerouslySetInnerHTML={{__html: `(function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:3421066,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+       })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');`}} />
+
         <Container sx={styles.container}>
           <Logo style={{width:'200px'}} src={className === 'sticky' ? LogoDark : LogoWhite} />
 
