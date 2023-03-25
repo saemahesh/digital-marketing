@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import Router from 'next/router';
-import { initGA, logPageView } from 'analytics';
+import TagManager from 'react-gtm-module'
+// import { initGA, logPageView } from 'analytics';
 // Load DM Sans typeface
 import 'typeface-dm-sans';
 
@@ -12,9 +13,10 @@ import 'sections/css/feature.css'
 
 export default function CustomApp({ Component, pageProps }) {
   useEffect(() => {
-    initGA();
-    logPageView();
-    Router.events.on('routeChangeComplete', logPageView);
+    // initGA();
+    TagManager.initialize({ gtmId: 'AW-11122708907' });
+    // logPageView();
+    // Router.events.on('routeChangeComplete', logPageView);
   }, []);
 
   return <Component {...pageProps} />;
