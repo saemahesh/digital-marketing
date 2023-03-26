@@ -1,6 +1,7 @@
 /** @jsx jsx */
 import { jsx } from 'theme-ui';
 import { Container, Grid } from 'theme-ui';
+import { MDBBtn } from 'mdb-react-ui-kit';
 import SectionHeader from 'components/section-header';
 import Chatbot from 'assets/images/chatbot.png'
 
@@ -37,6 +38,14 @@ export default function Feature() {
               <div className="card-body">
                 <h5 className="card-title">Bulk WhatsApp Sender</h5>
                 <h6 className="card-price">Offer Price Rs.799 per Year</h6>
+                <center>
+                  <a href="https://robomatein.mojo.page/digital-marketing">
+                    <MDBBtn outline color='success'>
+                      Pay Now
+                    </MDBBtn>
+                  </a>
+                </center>
+               
                 {/* <p className="card-text">
                   This is a longer card with supporting text below as a natural lead-in to
                   additional content. This content is a little bit longer.
@@ -50,6 +59,13 @@ export default function Feature() {
               <div className="card-body">
               <h5 className="card-title">Just Dail Extractor</h5>
                 <h6 className="card-price">Offer Price Rs.799 per Year</h6>
+                <center>
+                  <a href="https://robomatein.mojo.page/digital-marketing">
+                    <MDBBtn outline color='success'>
+                      Pay Now
+                    </MDBBtn>
+                  </a>
+                </center>
                 {/* <p className="card-text">
                   This is a longer card with supporting text below as a natural lead-in to
                   additional content. This content is a little bit longer.
@@ -63,6 +79,13 @@ export default function Feature() {
               <div className="card-body">
               <h5 className="card-title">Google Map Extractor</h5>
                 <h6 className="card-price">Offer Price Rs.799 per Year</h6>
+                <center>
+                  <a href="https://robomatein.mojo.page/digital-marketing">
+                    <MDBBtn outline color='success'>
+                      Pay Now
+                    </MDBBtn>
+                  </a>
+                </center>
                 {/* <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p> */}
               </div>
             </div>
@@ -73,6 +96,13 @@ export default function Feature() {
               <div className="card-body">
               <h5 className="card-title">Best AI Chatbot</h5>
                 <h6 className="card-price">Starts from Price Rs.999 per Year</h6>
+                <center>
+                  <a href="https://robomatein.mojo.page/digital-marketing">
+                    <MDBBtn outline color='success'>
+                      Pay Now
+                    </MDBBtn>
+                  </a>
+                </center>
                 {/* <p className="card-text">
                   This is a longer card with supporting text below as a natural lead-in to
                   additional content. This content is a little bit longer.
@@ -86,10 +116,14 @@ export default function Feature() {
               <img src={GoAds} className="card-img-top" alt="Hollywood Sign on The Hill" />
               <div className="card-body">
                 <h5 className="card-title">Google Ads</h5>
-                {/* <p className="card-text">
-                  This is a longer card with supporting text below as a natural lead-in to
-                  additional content. This content is a little bit longer.
-                </p> */}
+                <center>
+                  <a href="https://robomatein.mojo.page/digital-marketing">
+                    <MDBBtn outline color='success'>
+                      Pay Now
+                    </MDBBtn>
+                  </a>
+                </center>
+               
               </div>
             </div>
           </div>
@@ -100,10 +134,14 @@ export default function Feature() {
               className="card-img-top" alt="Hollywood Sign on The Hill" />
               <div className="card-body">
                 <h5 className="card-title">Youtube Ads</h5>
-                {/* <p className="card-text">
-                  This is a longer card with supporting text below as a natural lead-in to
-                  additional content. This content is a little bit longer.
-                </p> */}
+                <center>
+                  <a href="https://robomatein.mojo.page/digital-marketing">
+                    <MDBBtn outline color='success'>
+                      Pay Now
+                    </MDBBtn>
+                  </a>
+                </center>
+               
               </div>
             </div>
           </div>
@@ -113,10 +151,14 @@ export default function Feature() {
               <img src={FacebookAd} className="card-img-top" alt="Hollywood Sign on The Hill" />
               <div className="card-body">
                 <h5 className="card-title">Facebook Ads</h5>
-                {/* <p className="card-text">
-                  This is a longer card with supporting text below as a natural lead-in to
-                  additional content. This content is a little bit longer.
-                </p> */}
+                <center>
+                  <a href="https://robomatein.mojo.page/digital-marketing">
+                    <MDBBtn outline color='success'>
+                      Pay Now
+                    </MDBBtn>
+                  </a>
+                </center>
+               
               </div>
             </div>
           </div>
@@ -126,10 +168,14 @@ export default function Feature() {
               <img src={InstaAd} className="card-img-top" alt="Hollywood Sign on The Hill" />
               <div className="card-body">
                 <h5 className="card-title">Instagram Ads</h5>
-                {/* <p className="card-text">
-                  This is a longer card with supporting text below as a natural lead-in to
-                  additional content. This content is a little bit longer.
-                </p> */}
+                <center>
+                  <a href="https://robomatein.mojo.page/digital-marketing">
+                    <MDBBtn outline color='success'>
+                      Pay Now
+                    </MDBBtn>
+                  </a>
+                </center>
+               
               </div>
             </div>
           </div>
