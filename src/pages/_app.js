@@ -14,7 +14,7 @@ import 'sections/css/feature.css'
 export default function CustomApp({ Component, pageProps }) {
   useEffect(() => {
     // initGA();
-    TagManager.initialize({ gtmId: 'AW-11122708907' });
+    TagManager.initialize({ gtmId: 'GTM-M9C8CH4' });
     // logPageView();
     // Router.events.on('routeChangeComplete', logPageView);
   }, []);

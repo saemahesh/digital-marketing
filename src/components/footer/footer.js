@@ -64,17 +64,15 @@ export default function Footer() {
               <img src={Satisfaction} width="150px" alt="Robomate - Best IT Service Provider" />
             </div>
           </div>
-
         </Box>
-
       </Container>
       <Text sx={styles.footer.copyright}>
         All right reserved - © Robomate
       </Text>
       <div>
         <div style={{ position: 'fixed', right: '5px', bottom: '130px', zIndex: 999999 }}>
-          <a href="https://api.whatsapp.com/send?phone=919398305627&text=Hi Robomate👋" title="Whatspp Now For Inquiry" target="_blank">
-            <img src="https://www.truelinesolution.com/public/Asset/img/whatspp-now-for-free-quotation.gif" alt="Whatspp Now For Inquiry" title="Whatspp Now For Inquiry" width="60px;" />
+          <a  href="https://api.whatsapp.com/send?phone=919398305627&text=Hi Robomate👋" title="Whatspp Now For Inquiry" target="_blank">
+            <img  className='whatsapp-button' src="https://www.truelinesolution.com/public/Asset/img/whatspp-now-for-free-quotation.gif" alt="Whatspp Now For Inquiry" title="Whatspp Now For Inquiry" width="60px;" />
           </a>
         </div>
         <div style={{ position: 'fixed', right: '8px', bottom: '200px', zIndex: 999999 }} title="Call Now For Inquiry">
