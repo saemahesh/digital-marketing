@@ -54,11 +54,11 @@ export default function Footer() {
             </div>
             <div className="header-info-box">
             <p>Call Us</p>
-              <a href="tel:+919398305627"> <div className="header-info-icon">
+              <a href="tel:+919490424772"> <div className="header-info-icon">
               <i class="bi bi-telephone-fill"></i>
               </div>
                 
-                <h6>+919398305627</h6></a>
+                <h6>+919490424772</h6></a>
             </div>
             <div className="header-info-box">
               <img src={Satisfaction} width="150px" alt="Robomate - Best IT Service Provider" />
@@ -71,12 +71,12 @@ export default function Footer() {
       </Text>
       <div>
         <div style={{ position: 'fixed', right: '5px', bottom: '130px', zIndex: 999999 }}>
-          <a  href="https://api.whatsapp.com/send?phone=919398305627&text=Hi Robomate👋" title="Whatspp Now For Inquiry" target="_blank">
+          <a  href="https://api.whatsapp.com/send?phone=919490424772&text=Hi Robomate👋" title="Whatspp Now For Inquiry" target="_blank">
             <img  className='whatsapp-button' src="https://www.truelinesolution.com/public/Asset/img/whatspp-now-for-free-quotation.gif" alt="Whatspp Now For Inquiry" title="Whatspp Now For Inquiry" width="60px;" />
           </a>
         </div>
         <div style={{ position: 'fixed', right: '8px', bottom: '200px', zIndex: 999999 }} title="Call Now For Inquiry">
-          <a href="tel:+919398305627">
+          <a href="tel:+919490424772">
             <img src="https://www.truelinesolution.com/public/Asset/img/call-now-for-free-quotation.gif" alt="Call Now For Inquiry" title="Call Now For Inquiry" width="55px;" />
           </a>
         </div>
