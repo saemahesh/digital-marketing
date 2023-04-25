@@ -47,15 +47,15 @@ export default function Footer() {
           <div style={{display:'grid'}}>
             <div className="header-info-box">
               <div className="header-info-icon">
-              <i class="bi bi-envelope-open-fill"></i>
+              <i className="bi bi-envelope-open-fill"></i>
               </div>
               <p>Email Us</p>
               <a href="mailto:support@robomate.in?subject=We Need help Robomate"><h6>support@robomate.in</h6></a>
             </div>
             <div className="header-info-box">
             <p>Call Us</p>
-              <a href="tel:+919490424772"> <div className="header-info-icon">
-              <i class="bi bi-telephone-fill"></i>
+              <a href="tel:+919398305627"> <div className="header-info-icon">
+              <i className="bi bi-telephone-fill"></i>
               </div>
                 
                 <h6>+919490424772</h6></a>

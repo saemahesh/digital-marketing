@@ -47,9 +47,9 @@ export default function Header({ className }) {
             variant="secondary"
             aria-label="Get Started"
           >
-             <a class="whatsapp" style={{color:'deeppink', textDecoration:'none'}} 
-            href="https://api.whatsapp.com/send?phone=919490424772&text=Hi Robomate👋" target="blank">
-            <i class="bi bi-whatsapp"></i>  Whatsapp us: +919490424772
+             <a className="whatsapp" style={{color:'deeppink', textDecoration:'none'}} 
+            href="https://api.whatsapp.com/send?phone=919398305627&text=Hi Robomate👋" target="blank">
+            <i className="bi bi-whatsapp"></i>  Whatsapp us: +919398305627
             </a>
           </Button>
 
@@ -74,14 +74,14 @@ const positionAnim = keyframes`
 
 const styles = {
   header: {
-    color: 'white',
+    color: 'black',
     fontWeight: 'normal',
     py: 4,
     width: '100%',
     position: 'absolute',
     top: 0,
     left: 0,
-    backgroundColor: 'transparent',
+    backgroundColor: 'background',
     transition: 'all 0.5s ease',
     animation: `${positionAnim} 0.4s ease`,
     '.donate__btn': {
@@ -104,7 +104,7 @@ const styles = {
         '&:hover': {
           boxShadow: 'rgba(31, 62, 118, 0.57) 0px 9px 20px -5px',
           backgroundColor: 'primary',
-          color: 'white',
+          color: 'black',
         },
       },
     },

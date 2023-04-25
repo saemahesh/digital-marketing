@@ -52,15 +52,15 @@ export default function Banner() {
             and takes care of bringing customers to your doors.
           </Text>
           <button className='btn btn-warning donate__btn css-d7q6ja' style={{backgroundColor:'deeppink'}}>
-            <a class="whatsapp" style={{color:'white', textDecoration:'none'}} href="tel:+919490424772" target="blank">
-            <i class="bi bi-telephone-fill"></i> Contact us: +919490424772
+            <a className="whatsapp" style={{color:'white', textDecoration:'none'}} href="tel:+919398305627" target="blank">
+            <i className="bi bi-telephone-fill"></i> Contact us: +919398305627
             </a>
           </button>
           <br/>
           <button className='btn btn-warning donate__btn css-d7q6ja' style={{backgroundColor:'green'}}>
-            <a class="whatsapp" style={{color:'white', textDecoration:'none'}} 
-            href="https://api.whatsapp.com/send?phone=919490424772&text=Hi Robomate👋" target="blank">
-             <i class="bi bi-whatsapp"></i> Whatsapp us: +919490424772
+            <a className="whatsapp" style={{color:'white', textDecoration:'none'}} 
+            href="https://api.whatsapp.com/send?phone=919398305627&text=Hi Robomate👋" target="blank">
+             <i className="bi bi-whatsapp"></i> Whatsapp us: +919398305627
             </a>
           </button>
 
