@@ -4,13 +4,13 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "openssl-legacy-provider=true next build",
-    "serve": "openssl-legacy-provider=true next start",
+    "build": "next build",
+    "serve": "next start",
     "export": "next export",
     "postbuild": "next-sitemap"
   },
   "engines": {
-    "node": "18.x"
+    "node": "17.x"
   },
   "dependencies": {
     "@next/env": "^12.0.7",
