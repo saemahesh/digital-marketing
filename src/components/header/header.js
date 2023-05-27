@@ -48,8 +48,8 @@ export default function Header({ className }) {
             aria-label="Get Started"
           >
              <a className="whatsapp" style={{color:'deeppink', textDecoration:'none'}} 
-            href="https://api.whatsapp.com/send?phone=919398305627&text=Hi Robomate👋" target="blank">
-            <i className="bi bi-whatsapp"></i>  Whatsapp us: +919398305627
+            href="https://api.whatsapp.com/send?phone=916302009818&text=Hi Robomate👋" target="blank">
+            <i className="bi bi-whatsapp"></i>  Whatsapp us: +916302009818
             </a>
           </Button>
 
