@@ -4,7 +4,7 @@ import { Container, Grid } from 'theme-ui';
 import { MDBBtn } from 'mdb-react-ui-kit';
 import SectionHeader from 'components/section-header';
 import Chatbot from 'assets/images/chatbot.png'
-import CloudSender from 'assets/images/cloud_sender.png'
+import CloudSender from 'assets/images/cloud_sender2.png'
 
 import GoAds from 'assets/images/services/go-ad.png'
 import InstaAd from 'assets/images/services/insta-ads.jpg'
