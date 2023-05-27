@@ -181,7 +181,7 @@ export default function Feature() {
               <img src="https://i.ibb.co/Fx6Y3J1/website-development.jpg" className="card-img-top" alt="Hollywood Sign on The Hill" />
               <div className="card-body">
                 <h5 className="card-title">Website Development</h5>
-                <h6 className="card-price">Starts from <span style={{color:'green', fontSize:'x-large', fontWeight:'bold'}}>Rs.999</span></h6>
+                <h6 className="card-price">Starts from <span style={{color:'green', fontSize:'x-large', fontWeight:'bold'}}>Rs.999</span>/</h6>
                 <center>
                   <a href="https://robomatein.mojo.page/website-development">
                   <button type="button" class="btn btn-outline-success" style={{marginRight:'20px'}}>Buy Now</button>
