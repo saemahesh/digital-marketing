@@ -41,10 +41,10 @@ export default function Feature() {
                 <h6 className="card-price">Offer Price <span style={{color:'green', fontSize:'x-large', fontWeight:'bold'}}>Rs.350</span>/ Lifetime</h6>
                 <center>
                 <a href="https://robomatein.mojo.page/wa-sender">
-                <button type="button" class="btn btn-outline-success" style={{marginRight:'20px'}}>Buy Now</button>
+                <button type="button" className="btn btn-outline-success" style={{marginRight:'20px'}}>Buy Now</button>
                   </a>
                   <a href="/wa-sender">
-                    <button type="button" class="btn btn-outline-success">Details</button>
+                    <button type="button" className="btn btn-outline-success">Details</button>
                   </a>
                 </center>
                
@@ -63,10 +63,10 @@ export default function Feature() {
                 <h6 className="card-price">Offer Price <span style={{color:'green', fontSize:'x-large', fontWeight:'bold'}}>Rs.899</span>/ Year</h6>
                 <center>
                   <a href="https://robomatein.mojo.page/digital-marketing">
-                  <button type="button" class="btn btn-outline-success" style={{marginRight:'20px'}}>Buy Now</button>
+                  <button type="button" className="btn btn-outline-success" style={{marginRight:'20px'}}>Buy Now</button>
                   </a>
                   <a href="https://robomatein.mojo.page/wa-cloud-sender">
-                  <button type="button" class="btn btn-outline-success">Details</button>
+                  <button type="button" className="btn btn-outline-success">Details</button>
                     </a>
                 </center>
                 {/* <p className="card-text">
@@ -84,10 +84,10 @@ export default function Feature() {
               <h6 className="card-price">Offer Price <span style={{color:'green', fontSize:'x-large', fontWeight:'bold'}}>Rs.499</span>/ Year</h6>
                 <center>
                   <a href="https://robomatein.mojo.page/just-dail-data-extractor">
-                  <button type="button" class="btn btn-outline-success" style={{marginRight:'20px'}}>Buy Now</button>
+                  <button type="button" className="btn btn-outline-success" style={{marginRight:'20px'}}>Buy Now</button>
                   </a>
                   <a href="https://robomatein.mojo.page/just-dail-data-extractor">
-                  <button type="button" class="btn btn-outline-success">Details</button>
+                  <button type="button" className="btn btn-outline-success">Details</button>
                     </a>
                 </center>
                 {/* <p className="card-text">
@@ -105,10 +105,10 @@ export default function Feature() {
               <h6 className="card-price">Offer Price <span style={{color:'green', fontSize:'x-large', fontWeight:'bold'}}>Rs.499</span>/ Year</h6>
                 <center>
                   <a href="https://robomatein.mojo.page/google-data-extractor">
-                  <button type="button" class="btn btn-outline-success" style={{marginRight:'20px'}}>Buy Now</button>
+                  <button type="button" className="btn btn-outline-success" style={{marginRight:'20px'}}>Buy Now</button>
                   </a>
                   <a href="https://robomatein.mojo.page/google-data-extractor">
-                  <button type="button" class="btn btn-outline-success">Details</button>
+                  <button type="button" className="btn btn-outline-success">Details</button>
                     </a>
                 </center>
                 {/* <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p> */}
@@ -124,9 +124,9 @@ export default function Feature() {
                 <h6 className="card-price">Offer Price <span style={{color:'green', fontSize:'x-large', fontWeight:'bold'}}>Rs.499</span>/ Lifetime</h6>
                 <center>
                   <a href="https://robomatein.mojo.page/all-in-one-data-extractor">
-                  <button type="button" class="btn btn-outline-success" style={{marginRight:'20px'}}>Buy Now</button>
+                  <button type="button" className="btn btn-outline-success" style={{marginRight:'20px'}}>Buy Now</button>
                     <a href="https://robomatein.mojo.page/all-in-one-data-extractor">
-                  <button type="button" class="btn btn-outline-success">Details</button>
+                  <button type="button" className="btn btn-outline-success">Details</button>
                     
                     </a>
                   </a>
@@ -144,10 +144,10 @@ export default function Feature() {
                 <h6 className="card-price">Offer Price <span style={{color:'green', fontSize:'x-large', fontWeight:'bold'}}>Rs.1000</span>/ Year</h6>
                 <center>
                   <a href="https://robomatein.mojo.page/chat-bot">
-                  <button type="button" class="btn btn-outline-success" style={{marginRight:'20px'}}>Buy Now</button>
+                  <button type="button" className="btn btn-outline-success" style={{marginRight:'20px'}}>Buy Now</button>
                   </a>
                   <a href="https://robomatein.mojo.page/chat-bot">
-                  <button type="button" class="btn btn-outline-success">Details</button>
+                  <button type="button" className="btn btn-outline-success">Details</button>
                     </a>
                 </center>
                
@@ -165,10 +165,10 @@ export default function Feature() {
                 <h6 className="card-price">Offer Price <span style={{color:'green', fontSize:'x-large', fontWeight:'bold'}}>Rs.2999</span>/ Month</h6>
                 <center>
                   <a href="https://robomatein.mojo.page/digital-marketings">
-                  <button type="button" class="btn btn-outline-success" style={{marginRight:'20px'}}>Buy Now</button>
+                  <button type="button" className="btn btn-outline-success" style={{marginRight:'20px'}}>Buy Now</button>
                   </a>
                   <a href="https://robomatein.mojo.page/digital-marketings">
-                  <button type="button" class="btn btn-outline-success">Details</button>
+                  <button type="button" className="btn btn-outline-success">Details</button>
                     </a>
                 </center>
                
@@ -184,10 +184,10 @@ export default function Feature() {
                 <h6 className="card-price">Starts from <span style={{color:'green', fontSize:'x-large', fontWeight:'bold'}}>Rs.999</span>/</h6>
                 <center>
                   <a href="https://robomatein.mojo.page/website-development">
-                  <button type="button" class="btn btn-outline-success" style={{marginRight:'20px'}}>Buy Now</button>
+                  <button type="button" className="btn btn-outline-success" style={{marginRight:'20px'}}>Buy Now</button>
                   </a>
                   <a href="https://robomatein.mojo.page/website-development">
-                  <button type="button" class="btn btn-outline-success">Details</button>
+                  <button type="button" className="btn btn-outline-success">Details</button>
                     </a>
                 </center>
                
