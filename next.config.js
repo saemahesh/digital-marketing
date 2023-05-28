@@ -5,7 +5,7 @@ const nextConfiguration = {
   rewrites: async () => [
     {
       source: "/wa-sender",
-      destination: "/wa-sender2.html",
+      destination: "/wa-sender.html",
     },
   ],
   target: 'serverless', //will output independent pages that don't require a monolithic server. It's only compatible with next start or Serverless deployment platforms (like ZEIT Now) — you cannot use the custom server API.
