@@ -81,7 +81,7 @@ export default function Feature() {
               <img src="https://static.wixstatic.com/media/5f1e4f_eb05fd848fe54e2faaf15069429bbfa9~mv2.png/v1/fit/w_500,h_500,q_90/file.png" className="card-img-top" alt="Palm Springs Road" />
               <div className="card-body">
               <h5 className="card-title">Just Dail Extractor</h5>
-              <h6 className="card-price">Offer Price <span style={{color:'green', fontSize:'x-large', fontWeight:'bold'}}>Rs.499</span>/ Year</h6>
+              <h6 className="card-price">Offer Price <span style={{color:'green', fontSize:'x-large', fontWeight:'bold'}}>Rs.799</span>/ Year</h6>
                 <center>
                   <a href="https://robomatein.mojo.page/just-dail-data-extractor">
                   <button type="button" className="btn btn-outline-success" style={{marginRight:'20px'}}>Buy Now</button>
@@ -102,7 +102,7 @@ export default function Feature() {
               <img src="https://productimages.withfloats.com/serviceimages/tile/60bd23e97d1520bb48c5cfeebde2c0670d9516a475df6882bb1b1f04" className="card-img-top" alt="Los Angeles Skyscrapers" />
               <div className="card-body">
               <h5 className="card-title">Google Map Extractor</h5>
-              <h6 className="card-price">Offer Price <span style={{color:'green', fontSize:'x-large', fontWeight:'bold'}}>Rs.499</span>/ Year</h6>
+              <h6 className="card-price">Offer Price <span style={{color:'green', fontSize:'x-large', fontWeight:'bold'}}>Rs.799</span>/ Year</h6>
                 <center>
                   <a href="https://robomatein.mojo.page/google-data-extractor">
                   <button type="button" className="btn btn-outline-success" style={{marginRight:'20px'}}>Buy Now</button>
@@ -117,7 +117,7 @@ export default function Feature() {
           </div>
           <div className="col">
             <div className="card">
-              <img src="https://i.ibb.co/JFDrb94/All-in-data-extractor-image.jpg"
+              <img src="https://i.ibb.co/YXV6Nft/All-in-data-extractor-image.png"
               className="card-img-top" alt="Hollywood Sign on The Hill" />
               <div className="card-body">
                 <h5 className="card-title">All In One Extractor</h5>
@@ -138,7 +138,7 @@ export default function Feature() {
 
           <div className="col">
             <div className="card">
-              <img src="https://i.ibb.co/qpHJp1p/chatbot.jpg" className="card-img-top" alt="Hollywood Sign on The Hill" />
+              <img src="https://i.ibb.co/7rJDgCF/chatbot.jpg" className="card-img-top" alt="Hollywood Sign on The Hill" />
               <div className="card-body">
                 <h5 className="card-title">ChatBot</h5>
                 <h6 className="card-price">Offer Price <span style={{color:'green', fontSize:'x-large', fontWeight:'bold'}}>Rs.5000</span>/ Year</h6>
