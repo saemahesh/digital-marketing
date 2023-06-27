@@ -62,7 +62,7 @@ export default function Feature() {
               <h5 className="card-title">WA Cloud Sender</h5>
                 <h6 className="card-price">Offer Price <span style={{color:'green', fontSize:'x-large', fontWeight:'bold'}}>Rs.1999</span>/ Year</h6>
                 <center>
-                  <a href="https://robomatein.mojo.page/digital-marketing">
+                  <a href="https://robomatein.mojo.page/wa-cloud-sender">
                   <button type="button" className="btn btn-outline-success" style={{marginRight:'20px'}}>Buy Now</button>
                   </a>
                   <a href="https://wa.me/916302009818?text=Hey+Robomate!+I+need+more+details">
