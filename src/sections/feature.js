@@ -35,10 +35,10 @@ export default function Feature() {
         <div className="row row-cols-1 row-cols-md-4 g-4">
           <div className="col">
             <div className="card">
-              <img src="./graphicbaba.in_files/wa-sender.png" className="card-img-top" alt="Hollywood Sign on The Hill" />
+              <img src="https://i.ibb.co/1TsJXHG/desktop-sender.png" className="card-img-top" alt="Hollywood Sign on The Hill" />
               <div className="card-body">
                 <h5 className="card-title">Bulk WhatsApp Sender</h5>
-                <h6 className="card-price">Offer Price <span style={{color:'green', fontSize:'x-large', fontWeight:'bold'}}>Rs.350</span>/ Lifetime</h6>
+                <h6 className="card-price">Offer Price <span style={{color:'green', fontSize:'x-large', fontWeight:'bold'}}>Rs.999</span>/ Year</h6>
                 <center>
                 <a href="https://robomatein.mojo.page/wa-sender">
                 <button type="button" className="btn btn-outline-success" style={{marginRight:'20px'}}>Buy Now</button>
@@ -57,10 +57,10 @@ export default function Feature() {
           </div>
           <div className="col">
             <div className="card">
-              <img src={CloudSender} className="card-img-top" alt="Skyscrapers" />
+              <img src="https://i.ibb.co/DkLRThT/cloud-sender.png" className="card-img-top" alt="Skyscrapers" />
               <div className="card-body">
-              <h5 className="card-title">Wa cloud sender</h5>
-                <h6 className="card-price">Offer Price <span style={{color:'green', fontSize:'x-large', fontWeight:'bold'}}>Rs.899</span>/ Year</h6>
+              <h5 className="card-title">WA Cloud Sender</h5>
+                <h6 className="card-price">Offer Price <span style={{color:'green', fontSize:'x-large', fontWeight:'bold'}}>Rs.1999</span>/ Year</h6>
                 <center>
                   <a href="https://robomatein.mojo.page/digital-marketing">
                   <button type="button" className="btn btn-outline-success" style={{marginRight:'20px'}}>Buy Now</button>
@@ -121,7 +121,7 @@ export default function Feature() {
               className="card-img-top" alt="Hollywood Sign on The Hill" />
               <div className="card-body">
                 <h5 className="card-title">All In One Extractor</h5>
-                <h6 className="card-price">Offer Price <span style={{color:'green', fontSize:'x-large', fontWeight:'bold'}}>Rs.499</span>/ Lifetime</h6>
+                <h6 className="card-price">Offer Price <span style={{color:'green', fontSize:'x-large', fontWeight:'bold'}}>Rs.999</span>/ Year</h6>
                 <center>
                   <a href="https://robomatein.mojo.page/all-in-one-data-extractor">
                   <button type="button" className="btn btn-outline-success" style={{marginRight:'20px'}}>Buy Now</button>
@@ -140,8 +140,8 @@ export default function Feature() {
             <div className="card">
               <img src="https://i.ibb.co/qpHJp1p/chatbot.jpg" className="card-img-top" alt="Hollywood Sign on The Hill" />
               <div className="card-body">
-                <h5 className="card-title">Chat Bot</h5>
-                <h6 className="card-price">Offer Price <span style={{color:'green', fontSize:'x-large', fontWeight:'bold'}}>Rs.1000</span>/ Year</h6>
+                <h5 className="card-title">ChatBot</h5>
+                <h6 className="card-price">Offer Price <span style={{color:'green', fontSize:'x-large', fontWeight:'bold'}}>Rs.5000</span>/ Year</h6>
                 <center>
                   <a href="https://robomatein.mojo.page/chat-bot">
                   <button type="button" className="btn btn-outline-success" style={{marginRight:'20px'}}>Buy Now</button>
