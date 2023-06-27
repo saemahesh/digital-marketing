@@ -43,7 +43,7 @@ export default function Feature() {
                 <a href="https://robomatein.mojo.page/wa-sender">
                 <button type="button" className="btn btn-outline-success" style={{marginRight:'20px'}}>Buy Now</button>
                   </a>
-                  <a href="/wa-sender">
+                  <a href="https://wa.me/916302009818?text=Hey+Robomate!+I+need+more+details">
                     <button type="button" className="btn btn-outline-success">Details</button>
                   </a>
                 </center>
@@ -65,7 +65,7 @@ export default function Feature() {
                   <a href="https://robomatein.mojo.page/digital-marketing">
                   <button type="button" className="btn btn-outline-success" style={{marginRight:'20px'}}>Buy Now</button>
                   </a>
-                  <a href="https://robomatein.mojo.page/wa-cloud-sender">
+                  <a href="https://wa.me/916302009818?text=Hey+Robomate!+I+need+more+details">
                   <button type="button" className="btn btn-outline-success">Details</button>
                     </a>
                 </center>
@@ -86,7 +86,7 @@ export default function Feature() {
                   <a href="https://robomatein.mojo.page/just-dail-data-extractor">
                   <button type="button" className="btn btn-outline-success" style={{marginRight:'20px'}}>Buy Now</button>
                   </a>
-                  <a href="https://robomatein.mojo.page/just-dail-data-extractor">
+                  <a href="https://wa.me/916302009818?text=Hey+Robomate!+I+need+more+details">
                   <button type="button" className="btn btn-outline-success">Details</button>
                     </a>
                 </center>
@@ -107,7 +107,7 @@ export default function Feature() {
                   <a href="https://robomatein.mojo.page/google-data-extractor">
                   <button type="button" className="btn btn-outline-success" style={{marginRight:'20px'}}>Buy Now</button>
                   </a>
-                  <a href="https://robomatein.mojo.page/google-data-extractor">
+                  <a href="https://wa.me/916302009818?text=Hey+Robomate!+I+need+more+details">
                   <button type="button" className="btn btn-outline-success">Details</button>
                     </a>
                 </center>
@@ -125,7 +125,7 @@ export default function Feature() {
                 <center>
                   <a href="https://robomatein.mojo.page/all-in-one-data-extractor">
                   <button type="button" className="btn btn-outline-success" style={{marginRight:'20px'}}>Buy Now</button>
-                    <a href="https://robomatein.mojo.page/all-in-one-data-extractor">
+                    <a href="https://wa.me/916302009818?text=Hey+Robomate!+I+need+more+details">
                   <button type="button" className="btn btn-outline-success">Details</button>
                     
                     </a>
@@ -146,7 +146,7 @@ export default function Feature() {
                   <a href="https://robomatein.mojo.page/chat-bot">
                   <button type="button" className="btn btn-outline-success" style={{marginRight:'20px'}}>Buy Now</button>
                   </a>
-                  <a href="https://robomatein.mojo.page/chat-bot">
+                  <a href="https://wa.me/916302009818?text=Hey+Robomate!+I+need+more+details">
                   <button type="button" className="btn btn-outline-success">Details</button>
                     </a>
                 </center>
@@ -167,7 +167,7 @@ export default function Feature() {
                   <a href="https://robomatein.mojo.page/digital-marketings">
                   <button type="button" className="btn btn-outline-success" style={{marginRight:'20px'}}>Buy Now</button>
                   </a>
-                  <a href="https://robomatein.mojo.page/digital-marketings">
+                  <a href="https://wa.me/916302009818?text=Hey+Robomate!+I+need+more+details">
                   <button type="button" className="btn btn-outline-success">Details</button>
                     </a>
                 </center>
@@ -186,7 +186,7 @@ export default function Feature() {
                   <a href="https://robomatein.mojo.page/website-development">
                   <button type="button" className="btn btn-outline-success" style={{marginRight:'20px'}}>Buy Now</button>
                   </a>
-                  <a href="https://robomatein.mojo.page/website-development">
+                  <a href="https://wa.me/916302009818?text=Hey+Robomate!+I+need+more+details">
                   <button type="button" className="btn btn-outline-success">Details</button>
                     </a>
                 </center>
