@@ -72,12 +72,12 @@ export default function Footer() {
       <div>
         <div style={{ position: 'fixed', right: '5px', bottom: '130px', zIndex: 999999 }}>
           <a  href="https://api.whatsapp.com/send?phone=916302009818&text=Hi Robomate👋" title="Whatspp Now For Inquiry" target="_blank">
-            <img  className='whatsapp-button' src="https://www.truelinesolution.com/public/Asset/img/whatspp-now-for-free-quotation.gif" alt="Whatspp Now For Inquiry" title="Whatspp Now For Inquiry" width="60px;" />
+            <img  className='whatsapp-button' src="https://www.truelinesolution.com/public/Assets/User/static_img/whatspp-now-for-free-quotation.gif" alt="Whatspp Now For Inquiry" title="Whatspp Now For Inquiry" width="60px;" />
           </a>
         </div>
         <div style={{ position: 'fixed', right: '8px', bottom: '200px', zIndex: 999999 }} title="Call Now For Inquiry">
           <a href="tel:+916302009818">
-            <img src="https://www.truelinesolution.com/public/Asset/img/call-now-for-free-quotation.gif" alt="Call Now For Inquiry" title="Call Now For Inquiry" width="55px;" />
+            <img src="https://www.truelinesolution.com/public/Assets/User/static_img/call-now-for-free-quotation.gif" alt="Call Now For Inquiry" title="Call Now For Inquiry" width="55px;" />
           </a>
         </div>
 
