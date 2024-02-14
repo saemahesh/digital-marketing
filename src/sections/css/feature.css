@@ -8,6 +8,23 @@
     width: auto;
 }
 
+.heading{
+    font-size: 50px !important;
+}
+
+.moving-image {
+    animation: moveBackAndForth 2s linear infinite alternate; /* Adjust animation duration as needed */
+  }
+  
+  @keyframes moveBackAndForth {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(20px); /* Adjust the amount of movement (e.g., 10px) */
+    }
+  }
+
 .single-about-dec .column.left{
     margin-top: 10px;
     margin-left: 10px;

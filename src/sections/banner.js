@@ -43,8 +43,8 @@ export default function Banner() {
     <section sx={styles.banner} id="home">
       <Container sx={styles.banner.container}>
         <Box sx={styles.banner.contentBox}>
-          <Heading as="h1" variant="heroPrimary">
-          An <span>Automation</span> bot that can automate your business
+          <Heading className="heading" variant="heroPrimary">
+            Explore AI-powered tools to automate and accelerate your business
           </Heading>
           <Text as="p" variant="heroSecondary">
             You just need to concentrate on running your business. 
@@ -78,7 +78,7 @@ export default function Banner() {
         </Box>
 
         <Box sx={styles.banner.imageBox}>
-          <Image src={BannerThumb} alt="banner" />
+          <Image className='moving-image' src={BannerThumb} alt="banner" />
         </Box>
       </Container>
     </section>
