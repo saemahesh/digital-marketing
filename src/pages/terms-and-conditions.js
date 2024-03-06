@@ -5,23 +5,22 @@ import Sticky from 'react-stickynode';
 import Header from '../components/header/header';
 import Footer from '../components/footer/footer';
 
-const RefundReturnsPolicy = () => {
-  const [isSticky, setIsSticky] = useState(false);
-  const handleStateChange = (status) => {
-    if (status.status === Sticky.STATUS_FIXED) {
-      setIsSticky(true);
-    } else if (status.status === Sticky.STATUS_ORIGINAL) {
-      setIsSticky(false);
-    }
-  };
+const TermsAndConditions = () => {
+    const [isSticky, setIsSticky] = useState(false);
+    const handleStateChange = (status) => {
+      if (status.status === Sticky.STATUS_FIXED) {
+        setIsSticky(true);
+      } else if (status.status === Sticky.STATUS_ORIGINAL) {
+        setIsSticky(false);
+      }
+    };
   return (
     <React.Fragment>
     <Sticky innerZ={1001} top={0} onStateChange={handleStateChange}>
       <Header className={`${isSticky ? 'sticky' : 'unSticky'}`} />
     </Sticky>
-    <main id="main" className="site-main container" style={{padding:'130px 100px 100px 100px'}}>
-      <article className="post-1896 page type-page status-publish ast-article-single" id="post-1896" >
-      <style id='astra-theme-css-inline-css'>
+    <main id="main" className="site-main" style={{padding:'140px 100px 100px 100px'}}>
+        <style id='astra-theme-css-inline-css'>
 {`
 footer>div>div{
     padding:30px !important;
@@ -2816,25 +2815,25 @@ button{
     }
   `}
 </style>
+<article className="post-3226 page type-page status-publish ast-article-single" id="post-3226" >
         <header className="entry-header">
-          <h1 className="entry-title display-4 mb-4" >Refund and Returns Policy</h1>
+          <h1 className="entry-title" >Terms and Conditions</h1>
         </header>
 
-        <div className="entry-content clear" >
-          <ol className="list-group list-group-numbered mb-4">
-            <li className="list-group-item">Licensing: Once the software is purchased or a license is obtained, it is non-refundable. This means that even if the software doesn’t meet your expectations or requirements, you are not eligible for a refund. Digital nature: Since the software is often delivered digitally, there is no physical product to return. Once the software is downloaded or activated, it is considered used and non-refundable.</li>
-            <li className="list-group-item">Intellectual property: Software is protected by copyright and intellectual property laws. By purchasing or using the software, you acknowledge that you are acquiring a license to use the software, not ownership of the software itself. This reinforces the non-refundable nature of software, as the intellectual property rights associated with the software remain with the developer or publisher.</li>
-            <li className="list-group-item">Trial versions or demos: Many software products offer trial versions or demos that allow users to evaluate the software’s features and functionality before making a purchase. If you choose to purchase the full version after using a trial version, the purchase is typically non-refundable.</li>
-            <li className="list-group-item">Customization or configuration: If the software is customized or configured specifically for your needs, it may not be eligible for a refund. This is because the software has been tailored to your requirements, making it difficult for the developer or publisher to resell it to another customer.</li>
-            <li className="list-group-item">Terms and conditions: Software purchases are subject to the terms and conditions set forth by the developer or publisher. These terms often outline the non-refundable nature of the software and any specific conditions under which a refund may be considered. It’s important to carefully review the terms and conditions, as well as any trial versions or demos, before purchasing software to ensure it meets your requirements and expectations.</li>
-          </ol>
+        <div className="entry-content clear">
+          <p>Our company is not associated with WhatsApp or a part of any specific marketing software or company. Our software solutions are standalone applications created specifically to facilitate various marketing tasks, website development, and educate through online workshops.</p>
 
-          <p className="mb-4">No refund will be given if your Whatsapp account is blocked, suspended, banned, or direct-paid.</p>
+          <p>The data will only ever be saved on the computer being used and never be transmitted to, or even be able to reach, any other servers or online systems. Our software is standalone and does not have access to your data.</p>
 
-          <p className="mb-4">Waiting until the payment has been credited back to the account is strongly advised in the event of a payment failure. Software purchases are handled by a third party (PayPal), and in the event of a problem, it is advised to get in touch with PayPal support. You accept all terms and conditions by clicking the purchase button.</p>
+          <p>The recipients can click “Block” or “Report Spam,” and that may result in certain actions, such as suspension or banning of accounts, depending on the content of the messages.</p>
 
-          <h2 className="display-5 mb-3">Need help?</h2>
-          <p>Contact us at <a href="mailto:support@robomate.in">support@robomate.in</a> for questions related to refunds and returns.</p>
+          <p>License Agreement</p>
+
+          <p>Depending on the plan chosen, our software has a lifespan of between one and two years, during which time priority support and updates will be provided.</p>
+
+          <p>Please check our official website frequently to stay current on the newest software releases and updates.</p>
+
+          <p>The license cannot be moved from one system to another and can only be enabled on one computer. In case of emergency, additional charges may be applicable. When the license expires, it will be immediately disabled, and the client will be given the option to renew at a reasonable price.</p>
         </div>
       </article>
     </main>
@@ -2845,4 +2844,5 @@ button{
   );
 };
 
-export default RefundReturnsPolicy;
+export default TermsAndConditions;
+

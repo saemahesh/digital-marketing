@@ -28,15 +28,19 @@ export default [
         label: 'Refund Policy ',
       },
       {
-        path: '/refund-policy',
+        path: '/privacy-policy',
         label: 'Privacy Policy',
       },
       {
-        path: '/refund-policy',
+        path: '/terms-and-conditions',
         label: 'Terms & Conditions',
       },
       {
-        path: '/sitemap',
+        path: '/about-us',
+        label: 'About Us',
+      },
+      {
+        path: '/sitemap.xml',
         label: 'Site Map',
       }
     ],

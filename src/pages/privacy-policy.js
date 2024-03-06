@@ -5,23 +5,22 @@ import Sticky from 'react-stickynode';
 import Header from '../components/header/header';
 import Footer from '../components/footer/footer';
 
-const RefundReturnsPolicy = () => {
-  const [isSticky, setIsSticky] = useState(false);
-  const handleStateChange = (status) => {
-    if (status.status === Sticky.STATUS_FIXED) {
-      setIsSticky(true);
-    } else if (status.status === Sticky.STATUS_ORIGINAL) {
-      setIsSticky(false);
-    }
-  };
+const PrivacyPolicy = () => {
+    const [isSticky, setIsSticky] = useState(false);
+    const handleStateChange = (status) => {
+      if (status.status === Sticky.STATUS_FIXED) {
+        setIsSticky(true);
+      } else if (status.status === Sticky.STATUS_ORIGINAL) {
+        setIsSticky(false);
+      }
+    };
   return (
     <React.Fragment>
     <Sticky innerZ={1001} top={0} onStateChange={handleStateChange}>
       <Header className={`${isSticky ? 'sticky' : 'unSticky'}`} />
     </Sticky>
-    <main id="main" className="site-main container" style={{padding:'130px 100px 100px 100px'}}>
-      <article className="post-1896 page type-page status-publish ast-article-single" id="post-1896" >
-      <style id='astra-theme-css-inline-css'>
+    <main id="main" className="site-main"  style={{padding:'130px 100px 100px 100px'}}>
+    <style id='astra-theme-css-inline-css'>
 {`
 footer>div>div{
     padding:30px !important;
@@ -2816,25 +2815,34 @@ button{
     }
   `}
 </style>
+<article style={{padding:'10px 100px 100px 100px'}} className="post-3 page type-page status-publish ast-article-single" id="post-3">
         <header className="entry-header">
-          <h1 className="entry-title display-4 mb-4" >Refund and Returns Policy</h1>
+          <h1 className="entry-title" >Privacy Policy</h1>
         </header>
 
-        <div className="entry-content clear" >
-          <ol className="list-group list-group-numbered mb-4">
-            <li className="list-group-item">Licensing: Once the software is purchased or a license is obtained, it is non-refundable. This means that even if the software doesn’t meet your expectations or requirements, you are not eligible for a refund. Digital nature: Since the software is often delivered digitally, there is no physical product to return. Once the software is downloaded or activated, it is considered used and non-refundable.</li>
-            <li className="list-group-item">Intellectual property: Software is protected by copyright and intellectual property laws. By purchasing or using the software, you acknowledge that you are acquiring a license to use the software, not ownership of the software itself. This reinforces the non-refundable nature of software, as the intellectual property rights associated with the software remain with the developer or publisher.</li>
-            <li className="list-group-item">Trial versions or demos: Many software products offer trial versions or demos that allow users to evaluate the software’s features and functionality before making a purchase. If you choose to purchase the full version after using a trial version, the purchase is typically non-refundable.</li>
-            <li className="list-group-item">Customization or configuration: If the software is customized or configured specifically for your needs, it may not be eligible for a refund. This is because the software has been tailored to your requirements, making it difficult for the developer or publisher to resell it to another customer.</li>
-            <li className="list-group-item">Terms and conditions: Software purchases are subject to the terms and conditions set forth by the developer or publisher. These terms often outline the non-refundable nature of the software and any specific conditions under which a refund may be considered. It’s important to carefully review the terms and conditions, as well as any trial versions or demos, before purchasing software to ensure it meets your requirements and expectations.</li>
-          </ol>
+        <div className="entry-content clear">
+          <h2 className="wp-block-heading">Who we are</h2>
+          <p>Our website address is https://robomate.in We provide various marketing software solutions, website development services, and conduct online workshops. We gather non-personally identifying information of the sort that web browsers and servers normally make accessible, such as the browser type, language preference, referring site, and the date and hour of each visitor request. The gathering of non-personally identifying information is done to better understand how our website users utilize it. When appropriate, we may provide aggregated reports on usage patterns for our website in order to share non-personally identifying information.</p>
 
-          <p className="mb-4">No refund will be given if your Whatsapp account is blocked, suspended, banned, or direct-paid.</p>
+          <h2 className="wp-block-heading">Comments</h2>
+          <p>When users log in and leave comments on our blog, we also gather potentially personally-identifying information such as Internet Protocol (IP) addresses. With the exception of blog commenter IP addresses and email addresses, which are visible and disclosed to the administrators of the blog where the comment was left, we only disclose logged-in user and commenter IP addresses under the same circumstances that we use and disclose personally-identifying information as described below.</p>
+          <p>An anonymized string created from your email address (also called a hash) may be provided to the Gravatar service to see if you are using it. The Gravatar service privacy policy is available here: https://automattic.com/privacy/. After approval of your comment, your profile picture is visible to the public in the context of your comment.</p>
 
-          <p className="mb-4">Waiting until the payment has been credited back to the account is strongly advised in the event of a payment failure. Software purchases are handled by a third party (PayPal), and in the event of a problem, it is advised to get in touch with PayPal support. You accept all terms and conditions by clicking the purchase button.</p>
+          <h2 className="wp-block-heading">Compilation of Information Identifiably Identifying You</h2>
+          <p>Visitors to our websites may elect to interact with us in ways that necessitate the collection of personal information about them. Depending on the nature of the contact, we will collect different kinds and amounts of information. Those that conduct business with us are asked for extra information, including where necessary the financial and personal data needed to conduct those business operations. In each instance, we only gather this data to the extent that it is required or appropriate to achieve the goals of the visitor’s contact with us. Other than as mentioned herein, we do not share personally-identifying information. Additionally, users always have the option to decline to submit personally identifiable information, with the proviso that doing so can preclude them from taking part in particular website-related activities.</p>
 
-          <h2 className="display-5 mb-3">Need help?</h2>
-          <p>Contact us at <a href="mailto:support@robomate.in">support@robomate.in</a> for questions related to refunds and returns.</p>
+          <h2 className="wp-block-heading">Combined Statistics</h2>
+          <p>It’s possible that we will compile data on the website users’ browsing habits. This data may be made available to the public or shared with other parties by us. However, except for what is stated below, we do not divulge personally-identifying information.</p>
+
+          <h2 className="wp-block-heading">Cookies</h2>
+          <p>A website may store a string of data known as a cookie on a visitor’s computer, which the visitor’s browser then sends back to the website each time the visitor accesses the website. Cookies are used by us to identify and monitor visitors, their usage of the website, and their preferences for accessing the website. Visitors to our websites who do not want cookies to be stored on their computers might configure their browsers to reject cookies before using those websites, but doing so may prevent some functions from working properly.</p>
+
+          <h2 className="wp-block-heading">Business Relocations</h2>
+          <p>User information would be one of the assets transferred or acquired by a third party if we, or substantially all of our assets, were acquired, or in the unusual event that we go out of business or enter bankruptcy. You agree that this could happen and that the prospective buyer of our company would be permitted to keep using your personal information in accordance with this policy.</p>
+          <p>Because Ads on our website is not a member of any advertising network, no third parties receive any cookie-related data from it.</p>
+
+          <h2 className="wp-block-heading">Changes to Privacy Policies</h2>
+          <p>Even if the majority of changes are probably modest, we have the right to periodically modify our Privacy Policy. Visitors are urged to routinely check this page for updates to our Privacy Policy. You will be deemed to have accepted any changes to this Privacy Policy if you continue to use this site after they have been made.</p>
         </div>
       </article>
     </main>
@@ -2845,4 +2853,5 @@ button{
   );
 };
 
-export default RefundReturnsPolicy;
+export default PrivacyPolicy;
+

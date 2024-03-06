@@ -5,7 +5,7 @@ import Sticky from 'react-stickynode';
 import Header from '../components/header/header';
 import Footer from '../components/footer/footer';
 
-const RefundReturnsPolicy = () => {
+const AboutUs = () => {
   const [isSticky, setIsSticky] = useState(false);
   const handleStateChange = (status) => {
     if (status.status === Sticky.STATUS_FIXED) {
@@ -20,7 +20,7 @@ const RefundReturnsPolicy = () => {
       <Header className={`${isSticky ? 'sticky' : 'unSticky'}`} />
     </Sticky>
     <main id="main" className="site-main container" style={{padding:'130px 100px 100px 100px'}}>
-      <article className="post-1896 page type-page status-publish ast-article-single" id="post-1896" >
+      <article className="post-1896 page type-page status-publish ast-article-single" id="post-1896">
       <style id='astra-theme-css-inline-css'>
 {`
 footer>div>div{
@@ -2817,24 +2817,22 @@ button{
   `}
 </style>
         <header className="entry-header">
-          <h1 className="entry-title display-4 mb-4" >Refund and Returns Policy</h1>
+          <h1 className="entry-title display-4 mb-4" >About Us</h1>
         </header>
 
+       
         <div className="entry-content clear" >
-          <ol className="list-group list-group-numbered mb-4">
-            <li className="list-group-item">Licensing: Once the software is purchased or a license is obtained, it is non-refundable. This means that even if the software doesn’t meet your expectations or requirements, you are not eligible for a refund. Digital nature: Since the software is often delivered digitally, there is no physical product to return. Once the software is downloaded or activated, it is considered used and non-refundable.</li>
-            <li className="list-group-item">Intellectual property: Software is protected by copyright and intellectual property laws. By purchasing or using the software, you acknowledge that you are acquiring a license to use the software, not ownership of the software itself. This reinforces the non-refundable nature of software, as the intellectual property rights associated with the software remain with the developer or publisher.</li>
-            <li className="list-group-item">Trial versions or demos: Many software products offer trial versions or demos that allow users to evaluate the software’s features and functionality before making a purchase. If you choose to purchase the full version after using a trial version, the purchase is typically non-refundable.</li>
-            <li className="list-group-item">Customization or configuration: If the software is customized or configured specifically for your needs, it may not be eligible for a refund. This is because the software has been tailored to your requirements, making it difficult for the developer or publisher to resell it to another customer.</li>
-            <li className="list-group-item">Terms and conditions: Software purchases are subject to the terms and conditions set forth by the developer or publisher. These terms often outline the non-refundable nature of the software and any specific conditions under which a refund may be considered. It’s important to carefully review the terms and conditions, as well as any trial versions or demos, before purchasing software to ensure it meets your requirements and expectations.</li>
-          </ol>
+          <p>Robomate It Solutions provides innovative marketing solutions, website development services, and online educational workshops to businesses owners and individuals. Our software solutions are designed to streamline marketing efforts, enhance online presence, and facilitate knowledge sharing.</p>
 
-          <p className="mb-4">No refund will be given if your Whatsapp account is blocked, suspended, banned, or direct-paid.</p>
+          <p>Our marketing software allows businesses to automate sending messages through various channels, including WhatsApp, making it easy to reach a large audience quickly. It's particularly useful for businesses looking to promote their products, services, or events.</p>
 
-          <p className="mb-4">Waiting until the payment has been credited back to the account is strongly advised in the event of a payment failure. Software purchases are handled by a third party (PayPal), and in the event of a problem, it is advised to get in touch with PayPal support. You accept all terms and conditions by clicking the purchase button.</p>
+          <p>We offer a range of features, including personalized messaging, automated responses, and comprehensive analytics, to help businesses maximize the impact of their marketing campaigns.</p>
 
-          <h2 className="display-5 mb-3">Need help?</h2>
-          <p>Contact us at <a href="mailto:support@robomate.in">support@robomate.in</a> for questions related to refunds and returns.</p>
+          <p>In addition to marketing solutions, we specialize in website development, creating custom websites tailored to each client's unique needs. Our websites are user-friendly, visually appealing, and optimized for search engines, ensuring maximum visibility online.</p>
+
+          <p>Furthermore, we conduct online workshops to educate businesses and individuals on various topics, including digital marketing strategies, website optimization, and emerging technologies. Our workshops are led by industry experts and are designed to provide practical insights and actionable advice.</p>
+
+          <p>At Robomate It Solutions, we are committed to providing high-quality services that help businesses thrive in the digital age. With our solutions, businesses can save time and resources while reaching their target audience effectively.</p>
         </div>
       </article>
     </main>
@@ -2845,4 +2843,4 @@ button{
   );
 };
 
-export default RefundReturnsPolicy;
+export default AboutUs;

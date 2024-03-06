@@ -67,7 +67,7 @@ export default function Footer() {
         </Box>
       </Container>
       <Text sx={styles.footer.copyright}>
-        All right reserved - © Robomate
+        All right reserved - © Robomate It Solutions
       </Text>
       <div>
         <div style={{ position: 'fixed', right: '5px', bottom: '130px', zIndex: 999999 }}>
