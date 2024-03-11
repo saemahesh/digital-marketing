@@ -203,30 +203,7 @@ export default function Feature() {
         />
       <div className="container" id="services">
         <div className="row text-center">
-          <div className="single-about-item col-lg-4 col-md-4 col-sm-12 col-12 mb-lg-0 mb-md-4 mb-sm-4 mb-4">
-            <div className="single-about wow  bounceInLeft animated" style={{ visibility: 'visible', animationName: 'bounceInLeft' }}>
-              <div className="single-about-caption">
-                <div className="single-about-dec">
-                  <div className="row">
-                    <div className="column left">
-                      <img src="https://cdn-icons-png.flaticon.com/512/1233/1233540.png?w=740&t=st=1677310412~exp=1677311012~hmac=2a3088e49536e8a36edb247ecea48dff312a4e7286ec86cf21c64ee43636fbba" padding-bottom="10px" alt="Bulk SMS" />
-                    </div>
-                    <div className="column right">
-                      <p> <font size={6} face="Times New Roman, Times, serif" color="#ff8106" style={{ textShadow: '1px 1px #000' }}><a href="#">Bulk SMS</a></font></p>
-                      <p style={{ textAlign: 'left' }}><font size={4} face="Times New Roman, Times, serif">
-                        ✓ Transactional SMS
-                        <br /> ✓ Promotional SMS
-                        <br /> ✓ Open DND SMS
-                        <br /> ✓ Voice SMS/Call
-                        <br /> ✓ Whatsapp SMS
-                        <br /> ✓ PHP, HTML API
-                      </font></p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+         
           {/* end single about */}
           <div className="single-about-item col-lg-4 col-md-4 col-sm-12 col-12 mb-lg-0 mb-md-4 mb-sm-4 mb-4">
             <div className="single-about wow  bounceInUp animated" style={{ visibility: 'visible', animationName: 'bounceInUp' }}>
@@ -291,9 +268,10 @@ export default function Feature() {
                       <p style={{ textAlign: 'left' }}><font size={4} face="Times New Roman, Times, serif">
                         ✓ Coaching Advertisement
                         <br /> ✓ Facebook Promotion
+                        <br /> ✓ Google Promotion
+                        <br /> ✓ Youtube Promotion
                         <br /> ✓ Web Promotion
                         <br /> ✓ Miss Call Alert
-                        <br /> ✓ Mobile No. Data
                       </font></p>
                     </div>
                   </div>
@@ -365,7 +343,6 @@ export default function Feature() {
                         <br /> ✓ Banner Design
                         <br /> ✓ Icon Design
                         <br /> ✓ Favicon Design
-                        <br /> ✓ Picture Design
                         <br /> ✓ More ...
                       </font></p>
                     </div>
@@ -375,56 +352,7 @@ export default function Feature() {
             </div>
           </div>
           {/* end single about */}
-          <div className="single-about-item col-lg-4 col-md-4 col-sm-12 col-12 mb-lg-0 mb-md-4 mb-sm-4 mb-4">
-            <div className="single-about">
-              <div className="single-about-caption">
-                <div className="single-about-dec">
-                  <div className="row">
-                    <div className="column left">
-                      <img src="https://cdn-icons-png.flaticon.com/512/1122/1122550.png?w=740&t=st=1677311412~exp=1677312012~hmac=de6f01cd4d62654fbec9f842cb1e6047c2da2cd1e2fceb7e8b307c70bc326b2b" padding-bottom="10px" alt="Web Hosting" />
-                    </div>
-                    <div className="column right">
-                      <p> <font size={6} face="Times New Roman, Times, serif" color="#00e8b0">Host Services</font></p>
-                      <p style={{ textAlign: 'left' }}><font size={4} face="Times New Roman, Times, serif">
-                        ✓ Domain Registration
-                        <br /> ✓ Hosting Plan
-                        <br /> ✓ G-Mail Hosting
-                        <br /> ✓ Payment Gateway
-                        <br /> ✓ SSL Certificate
-                        <br /> ✓ More ...
-                      </font></p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          {/* end single about */}
-          <div className="single-about-item col-lg-4 col-md-4 col-sm-12 col-12 mb-lg-0 mb-md-4 mb-sm-4 mb-4">
-            <div className="single-about">
-              <div className="single-about-caption">
-                <div className="single-about-dec">
-                  <div className="row">
-                    <div className="column left">
-                      <img src="https://cdn-icons-png.flaticon.com/512/345/345672.png?w=740&t=st=1677311459~exp=1677312059~hmac=615361899524189b59191a29370acd2495659775024d558e144d6065097321c3" width="88px" padding-bottom="10px" alt="Robomate-third-party" />
-                    </div>
-                    <div className="column right">
-                      <p> <font size={6} face="Times New Roman, Times, serif" color="#27a9e1">Third-Party</font></p>
-                      <p style={{ textAlign: 'left' }}><font size={4} face="Times New Roman, Times, serif">
-                        ✓ CCTV camera
-                        <br /> ✓ Biometrics
-                        <br /> ✓ Plastic I-Card
-                        <br /> ✓ Visiting Card
-                        <br /> ✓ Digital Flex
-                        <br /> ✓ More ...
-                      </font></p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          {/* end single about */}
+
         </div>
       </div>
     </section>
