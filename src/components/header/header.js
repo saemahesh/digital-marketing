@@ -1,31 +1,34 @@
 /** @jsx jsx */
-import { jsx, Container, Flex, Button } from 'theme-ui';
-import { keyframes } from '@emotion/core';
-import { Link } from 'react-scroll';
-import Logo from 'components/logo';
-import LogoDark from 'assets/images/logo/logo.png'
-import LogoWhite from 'assets/images/logo/logo.png';
-import { DrawerProvider } from '../../contexts/drawer/drawer.provider';
-import MobileDrawer from './mobile-drawer';
-import menuItems from './header.data';
+import { jsx, Container, Flex, Button } from "theme-ui";
+import { keyframes } from "@emotion/core";
+import { Link } from "react-scroll";
+import Logo from "components/logo";
+import LogoDark from "assets/images/logo/logo.png";
+import LogoWhite from "assets/images/logo/logo.png";
+import { DrawerProvider } from "../../contexts/drawer/drawer.provider";
+import MobileDrawer from "./mobile-drawer";
+import menuItems from "./header.data";
 
 export default function Header({ className }) {
-
   return (
     <DrawerProvider>
       <header sx={styles.header} className={className} id="header">
-      <script dangerouslySetInnerHTML={{__html: `(function(h,o,t,j,a,r){
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `(function(h,o,t,j,a,r){
         h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
         h._hjSettings={hjid:3421066,hjsv:6};
         a=o.getElementsByTagName('head')[0];
         r=o.createElement('script');r.async=1;
         r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
         a.appendChild(r);
-       })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');`}} />
+       })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');`,
+          }}
+        />
 
         <script
-            dangerouslySetInnerHTML={{
-              __html: `
+          dangerouslySetInnerHTML={{
+            __html: `
                 !function(f,b,e,v,n,t,s)
                 {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
                 n.callMethod.apply(n,arguments):n.queue.push(arguments)};
@@ -37,37 +40,40 @@ export default function Header({ className }) {
                 fbq('init', '828423505364190');
                 fbq('track', 'PageView');
               `,
-            }}
-          />
+          }}
+        />
 
-          <script
-            dangerouslySetInnerHTML={{
-              __html: `
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
                 (function(c,l,a,r,i,t,y){
                   c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
                   t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
                   y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
                 })(window, document, "clarity", "script", "l1m1h1tu52");
               `,
-            }}
-          />
+          }}
+        />
 
         <Container sx={styles.container}>
-          <Logo style={{width:'200px'}} src={className === 'sticky' ? LogoDark : LogoWhite} />
+          <Logo
+            style={{ width: "200px" }}
+            src={className === "sticky" ? LogoDark : LogoWhite}
+          />
 
           <Flex as="nav" sx={styles.nav}>
             {menuItems.map(({ path, label }, i) => (
-              <Link
-                activeClass="active"
-                to={path}
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
+              <a
+                href={path}
+                style={{
+                  textDecoration: "none",
+                  color: "blue",
+                  cursor: "pointer",
+                }}
                 key={i}
               >
                 {label}
-              </Link>
+              </a>
             ))}
           </Flex>
 
@@ -76,9 +82,13 @@ export default function Header({ className }) {
             variant="secondary"
             aria-label="Get Started"
           >
-             <a className="whatsapp" style={{color:'deeppink', textDecoration:'none'}} 
-            href="https://api.whatsapp.com/send?phone=916302009818&text=Hi Robomate👋" target="blank">
-            <i className="bi bi-whatsapp"></i>  Whatsapp us: +916302009818
+            <a
+              className="whatsapp"
+              style={{ color: "deeppink", textDecoration: "none" }}
+              href="https://api.whatsapp.com/send?phone=916302009818&text=Hi Robomate👋"
+              target="blank"
+            >
+              <i className="bi bi-whatsapp"></i> Whatsapp us: +916302009818
             </a>
           </Button>
 
@@ -103,60 +113,60 @@ const positionAnim = keyframes`
 
 const styles = {
   header: {
-    color: 'black',
-    fontWeight: 'normal',
+    color: "black",
+    fontWeight: "normal",
     py: 4,
-    width: '100%',
-    position: 'absolute',
+    width: "100%",
+    position: "absolute",
     top: 0,
     left: 0,
-    backgroundColor: 'background',
-    transition: 'all 0.5s ease',
+    backgroundColor: "background",
+    transition: "all 0.5s ease",
     animation: `${positionAnim} 0.4s ease`,
-    '.donate__btn': {
+    ".donate__btn": {
       flexShrink: 0,
       mr: [15, 20, null, null, 0],
-      ml: ['auto', null, null, null, 0],
+      ml: ["auto", null, null, null, 0],
     },
-    '&.sticky': {
-      position: 'fixed',
-      backgroundColor: 'background',
-      color: '#000000',
-      boxShadow: '0 1px 2px rgba(0, 0, 0, 0.06)',
+    "&.sticky": {
+      position: "fixed",
+      backgroundColor: "background",
+      color: "#000000",
+      boxShadow: "0 1px 2px rgba(0, 0, 0, 0.06)",
       py: 3,
-      'nev > a': {
-        color: 'text',
+      "nev > a": {
+        color: "text",
       },
-      '.donate__btn': {
-        borderColor: 'primary',
-        color: 'primary',
-        '&:hover': {
-          boxShadow: 'rgba(31, 62, 118, 0.57) 0px 9px 20px -5px',
-          backgroundColor: 'primary',
-          color: 'black',
+      ".donate__btn": {
+        borderColor: "primary",
+        color: "primary",
+        "&:hover": {
+          boxShadow: "rgba(31, 62, 118, 0.57) 0px 9px 20px -5px",
+          backgroundColor: "primary",
+          color: "black",
         },
       },
     },
   },
   container: {
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'space-between',
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "space-between",
   },
   nav: {
-    mx: 'auto',
-    display: 'none',
-    '@media screen and (min-width: 1024px)': {
-      display: 'block',
+    mx: "auto",
+    display: "none",
+    "@media screen and (min-width: 1024px)": {
+      display: "block",
     },
     a: {
-      fontSize: '16px',
-      fontWeight: '400',
+      fontSize: "16px",
+      fontWeight: "400",
       px: 25,
-      cursor: 'pointer',
-      lineHeight: '1.2',
-      '&.active': {
-        color: 'secondary',
+      cursor: "pointer",
+      lineHeight: "1.2",
+      "&.active": {
+        color: "secondary",
       },
     },
   },
