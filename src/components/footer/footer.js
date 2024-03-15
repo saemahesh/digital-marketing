@@ -52,6 +52,7 @@ export default function Footer() {
               <p>Email Us</p>
               <a href="mailto:support@robomate.in?subject=We Need help Robomate">
                 <h6>support@robomate.in</h6>
+                <h6>robomate.in@gmail.com</h6>
               </a>
             </div>
 
@@ -63,6 +64,7 @@ export default function Footer() {
                   <i className="bi bi-telephone-fill"></i>
                 </div>
                 <h6>+916302009818</h6>
+                <h6>+919398305627</h6>
               </a>
             </div>
 
@@ -74,6 +76,10 @@ export default function Footer() {
               <p style={{ fontSize: "15px", textTransform: "capitalize" }}>
                 Robomate IT Solutions, H.no: 14-1-209/267, Parvath Nagar,
                 Allapur, 500081, Madhapur, Serilingampally, Rangareddy
+              </p>
+              <p style={{ fontSize: "15px", textTransform: "capitalize" }}>
+                Robomate IT Solutions, 6/113, VENKATAPURAM, VINAYAKA NAGAR,
+                CHATAPARU ROAD, ELURU, ANDHRA PRADESH, 534001
               </p>
             </div>
 
