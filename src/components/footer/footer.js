@@ -77,7 +77,7 @@ export default function Footer() {
                 Robomate IT Solutions, H.no: 14-1-209/267, Parvath Nagar,
                 Allapur, 500081, Madhapur, Serilingampally, Rangareddy
               </p>
-              <p style={{ fontSize: "15px", textTransform: "capitalize" }}>
+              <p style={{ display:"none", fontSize: "15px", textTransform: "capitalize" }}>
                 Robomate IT Solutions, 6/113, VENKATAPURAM, VINAYAKA NAGAR,
                 CHATAPARU ROAD, ELURU, ANDHRA PRADESH, 534001
               </p>
