@@ -55,7 +55,7 @@ export default function Feature() {
               </div>
             </div>
           </div>
-          <div className="col" style={{display:'none'}}>
+          <div className="col">
             <div className="card">
               <img src="https://i.ibb.co/DkLRThT/cloud-sender.png" className="card-img-top" alt="Skyscrapers" />
               <div className="card-body">
@@ -76,7 +76,7 @@ export default function Feature() {
               </div>
             </div>
           </div>
-          <div className="col"  style={{display:'none'}}>
+          <div className="col"  >
             <div className="card">
               <img src="https://static.wixstatic.com/media/5f1e4f_eb05fd848fe54e2faaf15069429bbfa9~mv2.png/v1/fit/w_500,h_500,q_90/file.png" className="card-img-top" alt="Palm Springs Road" />
               <div className="card-body">
@@ -97,7 +97,7 @@ export default function Feature() {
               </div>
             </div>
           </div>
-          <div className="col"  style={{display:'none'}}>
+          <div className="col" >
             <div className="card">
               <img src="https://productimages.withfloats.com/serviceimages/tile/60bd23e97d1520bb48c5cfeebde2c0670d9516a475df6882bb1b1f04" className="card-img-top" alt="Los Angeles Skyscrapers" />
               <div className="card-body">
