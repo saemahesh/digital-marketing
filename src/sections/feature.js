@@ -33,7 +33,7 @@ export default function Feature() {
       </Container>
       <div className="container" id='products'>
         <div className="row row-cols-1 row-cols-md-4 g-4">
-          <div className="col"  style={{display:'none'}}>
+          <div className="col" >
             <div className="card">
               <img src="https://i.ibb.co/1TsJXHG/desktop-sender.png" className="card-img-top" alt="Hollywood Sign on The Hill" />
               <div className="card-body">
