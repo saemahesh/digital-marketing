@@ -4,6 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "export NODE_OPTIONS=--openssl-legacy-provider && next dev",
+    "dev-local": "next dev",
+    "// read this": "copy paste export NODE_OPTIONS=--openssl-legacy-provider in terminal before this",
     "build": "export NODE_OPTIONS=--openssl-legacy-provider && next build",
     "serve": "next start",
     "export": "next export",

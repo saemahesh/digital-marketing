@@ -1,5 +1,14 @@
 {
-	"build": {
-		"env": {}
-	}
+  "redirects": [
+    {
+      "source": "/join-meeting",
+      "destination": "https://us05web.zoom.us/j/82435259699?pwd=WZlDSowhUM4jcqybTO5a365mEE4aJB.1",
+      "statusCode": 307
+    },
+    {
+      "source": "/join-group",
+      "destination": "https://chat.whatsapp.com/HG3RdNxRuqaLnVhdkPeScM",
+      "statusCode": 307
+    }
+  ]
 }
