@@ -7,6 +7,10 @@ const nextConfiguration = {
       source: "/wa-sender",
       destination: "/wa-sender.html",
     },
+    {
+      source: "/wa-workshop",
+      destination: "/wa-workshop.html",
+    },
   ],
   target: "serverless", //will output independent pages that don't require a monolithic server. It's only compatible with next start or Serverless deployment platforms (like ZEIT Now) — you cannot use the custom server API.
 };
