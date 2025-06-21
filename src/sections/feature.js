@@ -140,7 +140,7 @@ export default function Feature() {
                       fontWeight: "bold",
                     }}
                   >
-                    Rs.799
+                    Rs.999
                   </span>
                   / Year
                 </h6>
@@ -185,7 +185,7 @@ export default function Feature() {
                       fontWeight: "bold",
                     }}
                   >
-                    Rs.799
+                    Rs.999
                   </span>
                   / Year
                 </h6>
