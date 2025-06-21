@@ -9,6 +9,11 @@
       "source": "/join-group",
       "destination": "https://chat.whatsapp.com/HG3RdNxRuqaLnVhdkPeScM",
       "statusCode": 307
+    },
+    {
+      "source": "/buy",
+      "destination": "https://pages.razorpay.com/pl_NiZu85h4ora9M9/view",
+      "statusCode": 307
     }
   ]
 }
